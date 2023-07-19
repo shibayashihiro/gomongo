@@ -1,0 +1,312 @@
+.wd-sl-wizard .form-control{
+    outline: none;
+    box-shadow: none;
+    background: #FFFFFF;
+    border: 1px solid #AEAEAE;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 15px 20px;
+    line-height: normal;
+    margin-bottom: 10px;
+    height: auto;
+}
+.wd-sl-wizard .form-control:disabled, .form-control[readonly]{
+     background-color: #fff;
+}
+/*---------signup-step-------------*/
+.wd-sl-wizard .bg-color{
+     background-color: #333;
+}
+.wd-sl-wizard{
+     padding: 3rem 0;
+}
+.wd-sl-wizard .wizard .nav-tabs {
+    position: relative;
+    margin-bottom: 0;
+    border-bottom-color: transparent;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.wd-sl-wizard .wizard > div.wizard-inner {
+     position: relative;
+     margin-bottom: 50px;
+     text-align: center;
+}
+.wd-sl-wizard .connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width: 85%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 20px;
+    z-index: 1;
+}
+.wd-sl-wizard .wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+     color: #555555;
+     cursor: default;
+     border: 0;
+     border-bottom-color: transparent;
+     text-decoration: none;
+}
+.wd-sl-wizard span.round-tab {
+     width: 40px;
+     height: 40px;
+     line-height: normal;
+     display: inline-block;
+     border-radius: 50%;
+     background: #BDBDBD;
+     z-index: 111;
+     position: relative;
+     left: 0;
+     text-align: center;
+     font-size: 16px;
+     color: #FFF;
+     font-weight: 500;
+     border: 1px solid #ddd;
+     padding: 6px;
+}
+.wd-sl-wizard span.round-tab i{
+     color:#555555;
+}
+.wd-sl-wizard .wizard li.active span.round-tab {
+     background: var(--primary);
+     color: #fff;
+     border-color: var(--primary);
+}
+.wd-sl-wizard .wizard li.active span.round-tab i{
+     color: #5bc0de;
+}
+.wd-sl-wizard .wizard .nav-tabs > li {
+     width: auto;
+}
+.wd-sl-wizard .wizard .nav-tabs > li a {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    border-radius: 100%;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.wd-sl-wizard .wizard .nav-tabs > li a i{
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    padding:8px 12px 0;
+}
+.wd-sl-wizard .wizard .nav-tabs > li a:hover {
+     background: transparent;
+}
+.wd-sl-wizard .wizard .tab-pane {
+     position: relative;
+     padding-top: 20px;
+}
+.wd-sl-wizard .wizard h3 {
+     margin-top: 0;
+}
+.wd-sl-wizard .prev-step{
+     font-size: 18px;
+     padding: 6px 60px;
+     border-radius: 10px;
+     margin-top: 10px;
+     color: var(--primary);
+     background: #fff;
+     border: 1px solid var(--primary);
+     font-weight: 600;
+     height: 55px;
+}
+.wd-sl-wizard .next-step{
+     font-size: 18px;
+    padding: 6px 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    font-weight: 600;
+    height: 55px;
+}
+.wd-sl-wizard .step-head{
+     font-size: 20px;
+     text-align: center;
+     font-weight: 500;
+     margin-bottom: 20px;
+}
+ .term-check{
+     font-size: 14px;
+     font-weight: 400;
+}
+.wd-sl-wizard .custom-file {
+     position: relative;
+     display: inline-block;
+     width: 100%;
+     height: 40px;
+     margin-bottom: 0;
+}
+.wd-sl-wizard .custom-file-input {
+     position: relative;
+     z-index: 2;
+     width: 100%;
+     height: 40px;
+     margin: 0;
+     opacity: 0;
+}
+.wd-sl-wizard .custom-file-label {
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     z-index: 1;
+     height: 40px;
+     padding: .375rem .75rem;
+     font-weight: 400;
+     line-height: 2;
+     color: #495057;
+     background-color: #fff;
+     border: 1px solid #ced4da;
+     border-radius: .25rem;
+}
+.wd-sl-wizard .custom-file-label::after {
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     z-index: 3;
+     display: block;
+     height: 38px;
+     padding: .375rem .75rem;
+     line-height: 2;
+     color: #495057;
+     content: "Browse";
+     background-color: #e9ecef;
+     border-left: inherit;
+     border-radius: 0 .25rem .25rem 0;
+}
+.wd-sl-wizard .footer-link{
+     margin-top: 30px;
+}
+.wd-sl-wizard .list-content{
+     margin-bottom: 10px;
+}
+.wd-sl-wizard .list-content a{
+     padding: 10px 15px;
+     width: 100%;
+     display: inline-block;
+     background-color: #f5f5f5;
+     position: relative;
+     color: #565656;
+     font-weight: 400;
+     border-radius: 4px;
+}
+.wd-sl-wizard .list-content a[aria-expanded="true"] i{
+     transform: rotate(180deg);
+}
+.wd-sl-wizard .list-content a i{
+     text-align: right;
+     position: absolute;
+     top: 15px;
+     right: 10px;
+     transition: 0.5s;
+}
+.wd-sl-wizard .form-control[disabled], .wd-sl-wizard .form-control[readonly], .wd-sl-wizard fieldset[disabled] .form-control {
+     background-color: #fdfdfd;
+}
+.wd-sl-wizard .list-box{
+     padding: 10px;
+}
+.wd-sl-wizard .signup-logo-header .logo_area{
+     width: 200px;
+}
+.wd-sl-wizard .signup-logo-header .nav > li{
+     padding: 0;
+}
+.wd-sl-wizard .signup-logo-header .header-flex{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.wd-sl-wizard .list-inline li{
+     display: inline-block;
+     margin-right: 15px;
+}
+.wd-sl-wizard .list-inline li:last-child{margin-right: 0;}
+.wd-sl-wizard .pull-right{
+    text-align: right;
+}
+/*-----------custom-checkbox-----------*/
+/*----------Custom-Checkbox---------*/
+.wd-sl-wizard input[type="checkbox"]{
+     position: relative;
+     display: inline-block;
+     margin-right: 5px;
+}
+.wd-sl-wizard input[type="checkbox"]::before, .wd-sl-wizard input[type="checkbox"]::after {
+     position: absolute;
+     content: "";
+     display: inline-block;
+}
+.wd-sl-wizard input[type="checkbox"]::before{
+     height: 16px;
+     width: 16px;
+     border: 1px solid #999;
+     left: 0px;
+     top: 0px;
+     background-color: #fff;
+     border-radius: 2px;
+}
+.wd-sl-wizard input[type="checkbox"]::after{
+     height: 5px;
+     width: 9px;
+     left: 4px;
+     top: 4px;
+}
+.wd-sl-wizard input[type="checkbox"]:checked::after{
+     content: "";
+     border-left: 1px solid #fff;
+     border-bottom: 1px solid #fff;
+     transform: rotate(-45deg);
+}
+.wd-sl-wizard input[type="checkbox"]:checked::before{
+     background-color: #18ba60;
+     border-color: #18ba60;
+}
+.wd-sl-wizard form.login-box {
+    width: 90%;
+    margin: 0 auto;
+}
+.wd-sl-wizard label{
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    opacity: 0.4;
+}
+
+ @media (max-width: 767px){
+     .wd-sl-wizard .sign-content h3{
+         font-size: 40px;
+    }
+     .wd-sl-wizard .wizard .nav-tabs > li a i{
+         display: none;
+    }
+     .wd-sl-wizard .signup-logo-header .navbar-toggle{
+         margin: 0;
+         margin-top: 8px;
+    }
+     .wd-sl-wizard .signup-logo-header .logo_area{
+         margin-top: 0;
+    }
+     .wd-sl-wizard .signup-logo-header .header-flex{
+         display: block;
+    }
+}

@@ -1,0 +1,190 @@
+/*----- HEADER -----*/
+	.open .opacity {display: block;}
+	.head-bottom.open .nav-menu {left: 0;}
+    body.active-body {
+        overflow: hidden;
+    }
+	.mobile-menu {
+        font-size: 24px;
+        line-height: 0;
+        color: #fff;
+        cursor: pointer;
+        position: relative;
+        background: #FD9E0F;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+	.opacity {
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 999;
+        display: none;
+    }
+	.head-bottom .nav-menu {
+        background: var(--primary);
+        flex-direction: column;
+        width: 250px;
+        top: 0;
+        left: -250px;
+        position: absolute;
+        bottom: 0;
+        padding: 15px 15px;
+        transition: left 0.5s 0s;
+        z-index: 9999;
+        height: 100vh;
+    }
+    .wd-md-respo-menu {
+        text-align: right;
+    }
+	.head-bottom .nav-menu ul {flex-direction: column;}
+	.head-bottom .nav-menu ul li {padding: 0;}
+	.close-menu {font-size: 24px;color: #fff;cursor: pointer;}
+	.head-bottom.open .nav-menu ul li a.active{color: #fff;display: inline-block;}
+	.head-bottom .nav-menu ul li a.btn-contact{color: #000;box-shadow: none;}
+    .fixed-top.active_head {
+        box-shadow: 0px 0px 10px #00000047;
+    }
+    .wd-sl-headbars {
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+    .wd-sl-header-right {
+        display: flex;
+        align-items: center;
+    }
+    .wd-sl-header-right ul li a{
+        font-size: 18px;
+        font-weight: 700;
+        color: #000000;
+        margin-right: 22px;
+    }
+.header-bottom {
+    background: #FFF;
+    width: 100%;
+    padding: 0px 0;
+}
+.head-bottom {
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+}
+.head-bottom .brand-logo {
+    width: 140px;
+    height: 60px;
+    object-fit: contain;
+    padding: 10px 0px;
+}
+.head-bottom .nav-menu ul {
+    display: flex;
+}
+.head-bottom .nav-menu ul li a {
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: capitalize;
+    border-bottom: 3px solid transparent;
+}
+/*----- FOOTER -----*/
+#footer {
+    background-image: url(../images/footerbg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 60px 0;
+    width: 100%;
+    margin-top: 100px;
+}
+.wd-sl-footermenus h6 {
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 12px;
+    position: relative;
+    margin: 0 0 20px 5px;
+}
+.wd-sl-footermenus h6:after{
+	content: "";
+    background-color: var(--primary);
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+ul.wd-sl-fmenu_inner li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 10px;
+    position: relative;
+}
+ul.wd-sl-fmenu_inner li a.active{
+    color: var(--primary);
+}
+ul.wd-sl-fmenu_inner li a:before{
+	content: "";
+    background: var(--primary);
+    border-radius: 50%;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin: 3px 10px 3px 0;
+}
+.wd-sl-footermenus ul li span, .wd-sl-footermenus a {
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    color: #FFF;
+}
+.wd-sl-footermenus ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+}
+ul.wd-sl-linfoftr li {
+    display: block;
+    margin-bottom: 10px;
+}
+ul.wd-sl-linfoftr span {
+    color: var(--primary) !important;
+}
+ul.wd-sl-linfoftr li ul {
+    display: block;
+    margin: 10px 0 0;
+}
+ul.wd-sl-linfoftr li ul li {
+    display: inline-block;
+}
+ul.wd-sl-linfoftr hr {
+    border-color: rgb(255 255 255 / 10%);
+}
+.wd-sl-footertime li:hover{
+	background:var(--primary);
+    cursor: pointer;
+}
+.wd-sl-footertime li{
+	margin-bottom: 10px;
+	padding: 5px 10px;
+}
+ul.wd-sl-linfoftr ul li a img {
+    width: 34px;
+    height: 34px;
+    object-fit: contain;
+}

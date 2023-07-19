@@ -1,0 +1,98 @@
+#banner, #welcome, #services, #stock, #testimonial, #review, #other, #footer, #contactus{
+    position: relative;
+}
+.wd-edit-header {
+    position: absolute;
+    left: 50px;
+    top: 18px;
+}
+.wd-edit-btn img {
+    width: 30px !important;
+    height: 30px !important;
+    object-fit: contain !important;
+    border-radius: 50% !important;
+    background: #fff;
+}
+/*Banner*/
+.wd-edit-banner {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    z-index: 99;
+}
+/*Home Welcome section*/
+.wd-edit-welcm {
+    position: absolute;
+    left: 50px;
+    top: 180px;
+}
+/*home services*/
+.services-action-prt {
+    margin: 0 auto;
+    text-align: center;
+}
+.wd-sl-content_center{position: relative;}
+.wd-edit-services{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+.services-action-prt a i{color: #fff!important;}
+/*---Home Stock--*/
+.wd-edit-stock{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+.stock-action-prt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.stock-action-prt a i{color: #000;}
+.owl-stock .owl-item.active.center a i{color: #fff!important;}
+/*---Home Testi---*/
+.wd-edit-testi{
+    position: absolute;
+    left:50px;
+    top: 100px;
+}
+.testi-action-prt{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.testi-action-prt a i{color: #fff;}
+.wd-edit-plans{
+    position: absolute;
+    left: 50px;
+    top: 300px;
+}
+/*footer*/
+.wd-kr-footeredit {
+    display: flex;
+    align-items: baseline;
+}
+/*contact page*/
+.wd-edit-opt{
+    position: relative;
+}
+.wd-kr-contactedit{
+    position: absolute;
+    right: 0px;
+    top:10px;
+}
+.wd-kr-foot-bg{background: #2cd09d;}
+/*media query*/
+@media (max-width: 1440px) {
+    .wd-edit-welcm{top: 100px;}
+}
+@media (max-width: 1200px) {
+    .wd-edit-testi, .wd-edit-stock, .wd-edit-services, .wd-edit-welcm, .wd-edit-banner{left: 20px;top: 100px;}
+    .wd-edit-plans{left: 20px;top: 150px;}
+}
+@media (max-width: 991px) {
+    .wd-edit-btn, .services-action-prt, .stock-action-prt, .testi-action-prt{display: none !important;}
+}

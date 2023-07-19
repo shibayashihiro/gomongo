@@ -1,0 +1,87 @@
+#banner, #welcome, #service, #stock, #review, #other, #footer, #contactus{
+    position: relative;
+}
+.wd-edit-header-left{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.wd-edit-header-bottom {
+    position: absolute;
+    right: 50px;
+    bottom: 12px;
+    z-index: 11;
+}
+.wd-edit-btn img {
+    width: 30px !important;
+    height: 30px !important;
+    object-fit: contain !important;
+    border-radius: 50% !important;
+    background: #fff;
+}
+/*Banner*/
+.wd-edit-banner {
+    position: absolute;
+    left: 50px;
+    top: 200px;
+    z-index: 99;
+}
+/*Home Welcome section*/
+.wd-edit-welcm {
+    position: absolute;
+    left: 50px;
+    top: 90px;
+}
+/*home services*/
+.wd-edit-services{
+    position: absolute;
+    left: 50px;
+    top: 300px;
+}
+.services-action-prt a i{color: #fff!important;}
+/*---Home Stock--*/
+.wd-edit-stock{
+    position: absolute;
+    left: 50px;
+    top: 120px;
+}
+.stock-action-prt a i{color: #000!important;}
+/*---Home Testi---*/
+.wd-edit-testi{
+    position: absolute;
+    left:50px;
+    top: 120px;
+}
+.testi-action-prt{
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    z-index: 9;
+}
+.testi-action-prt a i{color: #000;}
+.wd-edit-plans{
+    position: absolute;
+    left: 50px;
+    top: 115px;
+}
+/*footer*/
+.wd-kr-footeredit {
+    display: flex;
+    align-items: baseline;
+}
+/*contact page*/
+.wd-sl-cdetails{
+    position: relative;
+}
+.wd-kr-contactedit{
+    position: absolute;
+    right: 10px;
+    top:10px;
+}
+/*media query*/
+@media (max-width: 1366px) {
+
+}
+@media (max-width: 991px) {
+    .wd-edit-btn, .services-action-prt, .stock-action-prt, .testi-action-prt{display: none !important;}
+}

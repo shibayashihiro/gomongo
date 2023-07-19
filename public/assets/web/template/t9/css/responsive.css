@@ -1,0 +1,467 @@
+/*  Desktop */
+@media all and (min-width: 1601px) and (max-width: 1920px)
+{
+
+}
+
+/* Laptop */
+@media (max-width: 1366px)
+{
+	.head-bottom .nav-menu ul li a{padding: 0 15px;}
+	.container-fluid{padding: 0 15px;}
+/*==============contact-us==============*/
+.wd-cont-map-blog:after{
+	width: 732px;
+}
+/*==============contact-us==============*/
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px)
+{
+/*===========footer================*/
+.wd-md-opening-blog-right{
+	margin-left: 10px!important;
+}
+/*===========footer================*/
+/*===========search-result=========*/
+.wd-md-scar-blog{
+	height: 400px;
+}
+#search-result .search-card{
+	height: 400px;
+}
+.yellow-btn{
+	width: 43%;
+}
+/*===========search-result=========*/
+/*===========index=================*/
+#last-aboutsec .wd-md-last-about {
+    padding: 0px 20%;
+}
+/*===========index=================*/
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px)
+{
+/*==================header===============*/
+.head-bottom .nav-menu ul li a {
+    padding: 0 12px;
+}
+/*==================header===============*/
+/*==================index==============*/
+.banner-cont h1{
+	font-size: 80px;
+}
+.y-btn {
+    padding: 0px 5px;
+}
+#aboutus .wd-md-about-card{
+	padding: 15px;
+    width: 100%;
+    flex-direction: column;
+}
+#aboutus .wd-md-about-card .wd-md-abot-img {
+	width: auto;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-left: 0;
+}
+#wd-recent-stock .wd-md-time-count .counter .count-number{
+	font-size: 41px;
+	line-height: 50px;
+}
+#aboutus .wd-md-about-card .wd-md-about-inner {
+    padding-right: 0px;
+}
+#aboutus .wd-md-about-card .wd-md-abot-img img {
+    width: 100%;
+}
+/*==================index==============*/
+/*===========search-result=========*/
+.wd-md-serach-car-blog{
+	flex-direction: column;
+}
+#search-result .search-card{
+	height: 390px;
+	border-radius: 20px;
+}
+.wd-md-scar-blog{
+	width: 100%;
+	margin-bottom: 50px;
+	height: 300px;
+	margin-right: 0;
+}
+.search-fillter{
+	padding: 15px;
+    height: 873px;
+}
+/*===========search-result=========*/
+	#services .grybg .row{display: block;}
+	#services .card img{margin: 30px auto;}
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px)
+{
+/*===========footer================*/
+.footer{
+	padding: 20px 0 23px;
+}
+#footer .footer .wd-md-address {
+    padding-top: 0px;
+}
+.f-timing {
+	margin: 1rem 0;
+}
+/*===========footer================*/
+/*============index================*/
+#services .wd-md-ourservices .row{
+	justify-content: center;
+}
+#services .wd-md-ourservices .wd-md-serv-inner {
+    margin-bottom: 30px;
+}
+#wd-recent-stock .wd-md-time-count .counter p.count-text{
+	font-size: 14px;
+}
+#wd-recent-stock .wd-md-car-stock .wd-md-stock-img img{
+	height: auto;
+}
+#wd-recent-stock .wd-md-car-stock .wd-md-stock-center-img img{
+	height: auto;
+}
+.wd-md-stock-center-img {
+    padding-top: 28px;
+}
+#wd-recent-stock .wd-md-car-stock .wd-md-stock-img.rec-sec-img{
+	padding-top: 0;
+}
+#wd-recent-stock .wd-md-car-stock .wd-md-stock-img {
+    padding-top: 28px!important;
+}
+#last-aboutsec .wd-md-last-about {
+    padding: 0px 0%;
+}
+.home-page section{
+	margin-top: 2rem;
+}
+.banner-cont h1{
+	font-size: 44px;
+	line-height: 70px;
+}
+/*============index================*/
+/*============stock-list===========*/
+.wd-md-stock-list-box .wd-md-stock-list-blog .wd-md-stock-list{
+	width: 100%;
+}
+.wd-md-stock-list-blog .wd-md-sec-row{
+	padding-top: 0;
+}
+.wd-md-stock-list-blog .wd-md-stock-list h2{
+	margin-bottom: 0;
+}
+/*============stock-list===========*/
+/*===========search-result=========*/
+.search-details {
+    margin-top: 50px;
+}
+.wd-sl-bottom a:last-child{
+	margin-left: 0!important;
+}
+.search-fillter{
+	margin-top: 50px;
+}
+/*===========search-result=========*/
+/*===========contact-us=========*/
+.wd-md-cont-right{
+	border-radius: 0px 0px 20px 20px;
+}
+.wd-md-contact-form {
+    padding: 5rem 0!important;
+}
+.wd-cont-map-blog:after{
+	top: -100px;
+	width: 444px;
+    background-size: contain;
+}
+/*===========contact-us=========*/
+
+	 .open .opacity {
+	     display: block;
+	}
+	 .head-bottom.open .nav-menu {
+	     left: 0;
+	}
+	 .mobile-menu {
+	     display: block;
+	     font-size: 24px;
+	     line-height: 0;
+	     color: #ffffff;
+	     cursor: pointer;
+	}
+	 .opacity {
+	     position: fixed;
+	     right: 0;
+	     top: 0;
+	     width: 100%;
+	     height: 100%;
+	     background: rgba(0, 0, 0, 0.7);
+	     z-index: 999;
+	     display: none;
+	}
+	 .head-bottom .nav-menu {
+	     background: var(--secondary);
+	     flex-direction: column;
+	     width: 250px;
+	     top: 0;
+	     left: -250px;
+	     position: absolute;
+	     bottom: 0;
+	     padding: 15px 15px;
+	     transition: left 0.5s 0s;
+	     z-index: 9999;
+	     height: 100vh;
+	}
+	 .wd-md-respo-menu{
+	    display: flex;
+	    align-items: center;
+	    justify-content: end;
+	}
+	 .head-bottom .nav-menu ul {
+	     flex-direction: column;
+	}
+	 .head-bottom .nav-menu ul li {
+	     padding: 0;
+	}
+	 .head-bottom .nav-menu ul li a {
+	     display: block;
+	     font-size: 18px;
+	     color: #ffffff;
+	     letter-spacing: 0.5px;
+	     padding: 0 5px;
+	     margin: 0;
+	     line-height: 45px;
+	}
+	 .close-menu {
+	     font-size: 24px;
+	     color: var(--primary);
+	     cursor: pointer;
+	}
+	 .head-bottom.open .nav-menu ul li a.active{
+	     color: var(--primary);
+	}
+	 .head-bottom .nav-menu ul li a.btn-contact{
+	     color: var(--primary);
+	     box-shadow: none;
+	}
+	br{display: none;}
+	.banner-cont h3{font-size: 28px;}
+	.home-page .banner-cont p{font-size: 16px;}
+	.banner-form{padding: 20px 10px 10px;}
+	.home-page .form-row>.col, .form-row>[class*=col-] {
+	    padding: 0 5px 10px 5px;
+	    width: 50%;
+	}
+	.banner-form .form-box select, .y-btn{
+		height: auto;
+		padding: 10px;
+		font-size: 14px;
+	}
+	.container-fluid, .wd-sl-sectcontent{padding: 0 15px;}
+	#aboutus .card{padding: 20px;}
+	#aboutus .card h3{
+		font-size: 24px;
+    	line-height: normal;
+	}
+	#aboutus .card p{font-size: 14px;}
+	.wd-sl-sectcontent.text-left {padding: 0;}
+	#services .grybg .row{display: block;}
+	#services .card img{margin: 30px auto;}
+	#services .card{margin-bottom: 50px;}
+	#services .grybg{padding: 70px 0 20px;}
+	.bgimg{background-size: 100% 65%;}
+	.new-car-service{padding: 50px 0 30px !important;}
+	.footer .form-group{width: 100%;}
+	.copyright p{text-align: center;}
+	.owl-test .owl-nav.disabled, .owl-test .owl-nav{left: -10px;right: -10px;}
+	#Testimonial .card{padding: 40px;}
+	.wd-sl-width{width: 100%;}
+	.wd-md-stock-main h3{font-size: 22px;}
+	.wd-md-stock-main h1{font-size: 32px;}
+	.wd-md-contact-form{padding: 2rem 0;}
+	.wd-sl-wizard .pull-right {
+	    display: flex;
+	    justify-content: center;
+	}
+	.wd-sl-wizard label{font-size: 12px;line-height: normal;}
+	.wd-sl-wizard .wizard > div.wizard-inner{margin-bottom: 0;}
+	#search-result{margin-top: 0;padding-top: 3rem;}
+	.sect-title{margin-bottom: 3rem;}
+	.search-details{padding-left:15px;}
+	.search-result-cont .search-card{padding: 15px;display: block;}
+	.wdsl-srch-body{margin-left: 0;padding: 10px 0 5px;}
+	.pd-image img{width: 100%;}
+	.pd-image{display: block;}
+	.wdsl-srch-body h2 {
+	    font-size: 24px;
+	    margin-bottom: 0px;
+	}
+	.wdsl-srch-body h6{font-size: 14px;margin-bottom: 0;}
+	.wd-sl-middle ul li{display: inline-block;margin-right: 10px;margin-bottom: 10px;}
+	.wdsl-srch-body p{font-size: 13px;margin: 10px 0;}
+	.wd-sl-bottom{display: block;}
+	.wd-sl-bottom a{display: block;margin-bottom: 15px;text-align: center;}
+	.wd-sl-bottom a:last-child{margin-bottom: 0;}
+	.wd-sl-stocklast ul{display: block;}
+	.wd-sl-stocklast ul li{max-width:100%;}
+	.wd-sl-innertop h4 {
+	    font-size: 16px;
+	    margin-bottom: 0;
+	}
+	.wd-md-stock-list-blog img.wd-stock-car1 {
+		height: 220px !important;
+	}
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px)
+{
+/*=============header==========*/
+.head-bottom{
+	margin-top: 0;
+}
+/*=============header==========*/
+/*============index-page==========*/
+.banner-cont h3 {
+    font-size: 23px;
+}
+#home-banner{
+	height: 50vh;
+}
+#aboutus .wd-md-about-card .wd-md-about-inner h2{
+	font-size: 28px;
+    line-height: 35px;
+}
+#aboutus .wd-md-about-card{
+	padding: 0 15px;
+}
+#services .wd-md-ourservices .wd-md-serv-inner .wd-md-serv-img{
+	height: 50px;
+}
+#services .wd-md-ourservices .wd-md-serv-inner .wd-md-serv-img svg{
+	width: 27px;
+    height: 25px;
+}
+#wd-recent-stock .wd-md-time-count{
+	padding-top: 0;
+}
+#wd-recent-stock .wd-md-time-count .counter .count-number {
+    font-size: 31px;
+    line-height: 34px;
+}
+#wd-recent-stock .wd-md-time-count .counter p.count-text {
+    font-size: 11px;
+    line-height: normal;
+}
+.banner-form{
+	margin-top: -80px;
+}
+.banner-cont h1{
+	line-height: 55px;
+	font-size: 40px;
+}
+.banner-form P{
+	font-size: 13px;
+}
+.banner-form .form-box select, .y-btn{
+	padding:5px;
+}
+#aboutus .wd-md-about-card .wd-md-about-inner a.wd-md-read{
+	width: 100%;
+	display: block;
+}
+/*============index-page==========*/
+/*===========contact-us=========*/
+.wd-sl-width .col-md-6 {
+    padding: 15px 15px 0;
+}
+.contact-card{
+	padding: 15px 0;
+}
+.contact-card span, .contact-card a {
+    font-size: 13px;
+}
+.wd-md-contact-form .wd-md-contact-form-blog .form-group input{
+	border-radius: 15px;
+}
+.wd-md-contact-form .wd-md-contact-form-blog .row .col-md-6 .form-group {
+    margin-bottom: 0;
+}
+.wd-md-contact-form .wd-md-contact-form-blog button{
+	margin: 5px auto 20px;
+}
+.wd-cont-map-blog:after{
+	width: 295px;
+    height: 125px;
+}
+/*===========contact-us=========*/
+/*===========search-result=========*/
+#search-result .search-card{
+	height: auto;
+	padding: 15px;
+}
+#search-result{
+	padding-bottom: 30px;
+}
+.wd-sl-innertop a.wd-border-btn{
+	width: 38%;
+	height: 44px;
+}
+.wdsl-srch-body h2{
+	font-size: 18px;
+}
+.wd-sl-bottom a{
+	width: 100%;
+}
+.wd-md-carname{
+	width: 50%;
+}
+.wd-sl-middle ul{
+	flex-wrap: wrap;
+}
+.wd-sl-middle ul li{
+	width: 45%;
+}
+/*===========search-result=========*/
+/*=============stock-list======*/
+.wd-md-stock-list-blog .wd-md-stock-list h2{
+	font-size: 20px;
+}
+.wd-md-stock-list-area .wd-md-title h3{
+	font-size: 20px;
+	line-height: normal;
+}
+/*=============stock-list======*/
+/*============finance=========*/
+.wd-md-stock-main{
+	height: 445px;
+}
+.wd-md-stock-main h3 {
+    font-size: 18px;
+}
+.wd-md-stock-main h1 {
+    font-size: 20px;
+}
+.wd-md-stock-main:before{
+	width: 455px;
+	left: -138px;
+}
+.wd-sl-wizard span.round-tab {
+    width: 35px;
+    height: 35px;
+    line-height: 23px;
+}
+/*============finance=========*/
+}

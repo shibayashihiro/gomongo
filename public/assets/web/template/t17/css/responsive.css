@@ -1,0 +1,308 @@
+/*  Desktop */
+@media all and (min-width: 1601px) and (max-width: 1920px) {
+
+	/* home */
+	.wd-kr-banercar img {
+		width: 100%;
+	}
+}
+
+/* Laptop */
+@media (max-width: 1366px) {
+
+	/*--Home Services--*/
+	#services::before {
+		width: 43%;
+		align-items: center;
+		height: 100%;
+		display: block;
+	}
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+
+	/* header */
+	.head-top p,
+	.head-top a,
+	.head-top span {
+		white-space: nowrap;
+	}
+}
+
+@media (max-width: 1024px) {
+
+	/*home Banner form*/
+	.wd-kr-srch-car-box {
+		max-width: 100%;
+		height: auto;
+		width: 100%;
+		padding: 0 12px;
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+
+	.wd-kr-srch-car {
+		text-align: center;
+		margin: 10px auto;
+		padding: 8px 15px;
+		height: auto;
+	}
+
+	/*search list*/
+	.wd-search-filter-blog .filter-head {
+		width: 96%;
+		margin-bottom: 10px;
+	}
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+	.head-bottom img {
+		height: 45px;
+	}
+
+	.header-top {
+		display: none;
+	}
+
+	.open .opacity {
+		display: block;
+	}
+
+	.head-bottom.open .nav-menu {
+		left: 0;
+	}
+
+	.mobile-menu {
+		display: block;
+		font-size: 24px;
+		line-height: 0;
+		color: #5a57f2;
+		cursor: pointer;
+	}
+
+	.opacity {
+		position: fixed;
+		right: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.7);
+		z-index: 999;
+		display: none;
+	}
+
+	.head-bottom .nav-menu {
+		background: #fff;
+		flex-direction: column;
+		width: 250px;
+		top: 0;
+		left: -250px;
+		position: absolute;
+		bottom: 0;
+		padding: 15px 15px;
+		transition: left 0.5s 0s;
+		z-index: 9999;
+		height: 100vh;
+	}
+
+	.wd-md-respo-menu {
+		display: flex;
+		align-items: center;
+		justify-content: end;
+	}
+
+	.head-bottom .nav-menu ul {
+		flex-direction: column;
+	}
+
+	.head-bottom .nav-menu ul li {
+		padding: 0;
+	}
+
+	.head-bottom .nav-menu ul li a {
+		display: block;
+		font-size: 18px;
+		color: #000;
+		letter-spacing: 0.5px;
+		padding: 0 5px;
+		margin: 0;
+		line-height: 45px;
+	}
+
+	.close-menu {
+		font-size: 24px;
+		color: #5a57f2;
+		cursor: pointer;
+	}
+
+	.head-bottom.open .nav-menu ul li a.active,
+	.head-bottom .nav-menu ul li a:hover,
+	.head-bottom .nav-menu ul li a.active {
+		display: inline-block;
+		background: transparent;
+		padding: 0 5px;
+	}
+
+	.head-bottom .nav-menu ul li a.btn-contact {
+		color: #000;
+		box-shadow: none;
+	}
+
+	.head-bottom {
+		padding: 0 15px;
+	}
+
+	.wd-kr-social-media {
+		display: none;
+	}
+
+	#services .col-md-4,
+	#services .col-md-10,
+	#services .col-md-6 {
+		max-width: 100%;
+		flex: 0 0 100%;
+	}
+
+	.mrg_auto {
+		margin: 0;
+	}
+
+	.slide-box {
+		margin-top: 80px;
+	}
+
+	/*home Banner form*/
+	.wd-kr-search-car-blog {
+		margin-top: 10px;
+		position: relative;
+	}
+
+	.wd-kr-search-car-blog .wd-kr-srch-car-box select {
+		width: 46%;
+		height: auto;
+		margin: 5px 0;
+	}
+
+	/* footer */
+	#footer {
+		padding: 80px 0 0;
+	}
+
+	.wd-kr-footermenus h6 {
+		font-size: 18px;
+	}
+
+	.wd-kr-footermenus {
+		margin-bottom: 30px;
+		margin: 1px 17px 30px;
+		display: block;
+	}
+
+	.wd-md-our-work-blog-img-t11 {
+		padding: 0 55px;
+	}
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+
+	/*home banner*/
+	.wd-kr-banertitle h1 {
+		line-height: 40px;
+	}
+
+	/*home services*/
+	#services::before {
+		display: none;
+	}
+
+	.mrgt_40 {
+		margin-top: 0;
+	}
+
+	.wd-kr-services-box {
+		margin: 5px auto;
+	}
+
+	/*home budget*/
+	.wd-kr-budget_txt {
+		margin: 20px auto 0;
+	}
+
+	/* footer */
+	#footer {
+		padding: 50px 0 0;
+	}
+
+	#services,
+	#welcome,
+	#stock,
+	#testimonal,
+	#budget_need {
+		margin: 1px 17px 0px;
+	}
+
+	#banner .row,
+	#other .row {
+		flex-flow: column-reverse;
+	}
+
+	/*contact page*/
+	.wd-kr-contactform {
+		text-align: center;
+		margin: 20px auto;
+	}
+
+	.wd-kr-contact-bx {
+		width: 100%;
+		height: auto;
+	}
+
+	/*search list*/
+	.wd-kr-stock-car-img img {
+		height: 180px;
+		padding: 0 20px;
+	}
+
+	#stock .container {
+		max-width: 100%;
+	}
+
+	form#frmSearch {
+		display: block;
+	}
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+	/*finance form*/
+	.wd-kr-wizard span.round-tab {
+		width: 50px;
+		height: 50px;
+		line-height: 36px;
+	}
+
+	.wd-kr-wizard .wizard li.active span.round-tab {
+		line-height: 36px;
+	}
+
+	.wd-kr-wizard .connecting-line,
+	.wd-kr-wizard .connecting-line-active {
+		top: 20px;
+	}
+
+}
+
+@media (max-width: 375px) {
+	.wd-kr-banertitle h1 {
+		font-size: 30px;
+	}
+
+	.wd-kr-cmn-title h1 {
+		font-size: 30px !important;
+	}
+}

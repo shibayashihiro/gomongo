@@ -1,0 +1,959 @@
+/*----- CUSTOME [ EXTRA CSS ] -----*/
+
+/* poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* =====================dashboard==================== */
+.wd-ds-box{
+    background: #FFFFFF;
+    box-shadow: 0px 11px 15px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+    padding: 20px 25px;
+}
+
+.wd-ds-box .wd-ds-title h3{
+	font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: normal;
+    color: #000000;
+    margin-bottom: 0;
+}
+.wd-ds-box .wd-ds-title a{
+	border-radius: 15px;
+    border: 1px solid #F76014;
+    padding: 3px 15px;
+    background: #ffffff;
+    font-size: 13px;
+    color: #F76014;
+}
+.wd-ds-box .wd-ds-title a:hover{
+	background:#F76014;
+	color: #ffffff;
+}
+.wd-ds-box .wd-ds-blog .wd-ds-inner{
+	padding-bottom: 15px;
+    /*display: flex;
+    align-items: flex-start;*/
+    /*max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));*/
+}
+.wd-ds-box .wd-ds-blog .wd-ds-inner:last-child{padding-bottom: 0;}
+.wd-ds-box .wd-ds-blog .wd-ds-inner h4{
+	font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: #000000;
+    margin-bottom: 0;
+}
+.wd-ds-box .wd-ds-blog .wd-ds-inner p{
+	font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: normal;
+    color: #000000;
+    margin-bottom: 0;
+    word-break: break-all;
+}
+
+/* =====================dashboard==================== */
+/*====================Sales Invoice===================*/
+
+.wd-md-admin {
+
+    padding-top: 80px;
+
+}
+
+.stock-footer .wd-total{
+	padding-right: 246px;
+}
+.wd-date form input{
+    margin-left: 14px;
+}
+.wd-date form label {
+    margin-left: 15px;
+    font-size: 16px;
+}
+.wd-md-sidebar{
+
+	position: fixed;
+
+    width: 92px;
+
+    background: #333333;
+
+    height: 100vh;
+
+}
+section#sidebar:hover {
+    width: 200px;
+}
+#sidebar:hover + #slidebar{
+    margin-left: 200px;
+}
+#sidebar:hover + #slidebar header .fixed-top{
+	margin-left: 200px;
+}
+#slidebar{
+    margin-left: 92px;
+    transition: margin 0.5s;
+    height: 100%;
+}
+
+.wd-md-rightbar .wd-md-topbar{
+
+	display: flex;
+
+	align-items: center;
+
+	padding:20px 30px;
+
+	width: 100%;
+
+	height: auto;
+
+	background: #FFFFFF;
+
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.04);
+
+}
+
+.wd-md-rightbar .wd-md-topbar h2{
+
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: normal;
+    color: #000000;
+    margin-bottom: 0;
+
+}
+
+.wd-md-rightbar .wd-md-bottombar{
+	background: #FAFAFA;
+    padding: 0px 0;
+    margin-bottom: 30px;
+}
+
+/*====================Sales Invoice===================*/
+
+/*====================Sales Record==================*/
+
+.header-top {
+
+	background: #fff;
+
+    border-bottom: 1px solid #EDEDED;
+
+    padding: 12px 30px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+    margin-left: 92px;
+    transition: margin 0.5s;
+
+}
+
+.table-rightblog{
+
+	height: auto!important;
+
+	background: #ffffff!important;
+
+}
+
+.wd-md-table .table thead tr th{
+
+	font-style: normal;
+
+	font-weight: 500;
+
+	font-size: 14px;
+
+	height: auto;
+
+    vertical-align: middle;
+
+	line-height: unset;
+
+	letter-spacing: 0.01em;
+
+	color: #000000;
+
+}
+
+.wd-md-table .table tbody tr td{
+font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: unset;
+    height:auto;
+    vertical-align: middle;
+    letter-spacing: 0.01em;
+    color: rgb(0 0 0 / 90%);
+
+}
+
+.wd-md-table .table tbody tr td p{
+
+	margin-bottom: 0;
+
+	margin-left: 10px;
+
+}
+
+.wd-md-topbar .wd-md-searchbar{
+
+	width: 268px;
+
+	padding-right: 30px;
+
+}
+
+.wd-md-topbar .wd-md-searchbar .input-group-prepend{
+
+	background: #F9F9F9;
+
+	border-radius: 60px 0px 0px 60px;
+
+}
+
+.wd-md-topbar .wd-md-searchbar .input-group-prepend button.btn:focus{
+
+	box-shadow:none!important;
+
+}
+
+.wd-md-topbar .wd-md-searchbar .input-group-prepend button i{
+
+	color: #000000;
+
+}
+
+.wd-md-topbar .wd-md-searchbar input{
+
+	background: #F9F9F9;
+    border-radius: 60px;
+    padding: 0px 15px 0 5px;
+    height: auto;
+
+}
+
+.wd-md-topbar .wd-md-searchbar input::placeholder{
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	font-size: 14px;
+
+	line-height: 21px;
+
+	color: #000000;
+
+}
+
+.wd-md-topbar .wd-md-searchbar input:focus{
+
+	box-shadow: none!important;
+
+}
+
+.wd-md-table .table-hover tbody tr:hover{
+
+	background: rgba(51, 51, 51, 0.02);
+
+}
+
+.wd-md-table .custom-control input:checked~.custom-control-label::before{
+
+	color: #fff;
+
+    border-color: #78D12A;
+
+    background-color: #78D12A;
+
+}
+
+.wd-md-table .custom-control input:focus~.custom-control-label::before{
+
+	box-shadow: none!important;
+
+}
+
+.wd-md-table .custom-control-label::before{
+
+	background: #EAEAEA;
+
+	border: none;
+
+}
+
+.wd-md-table .custom-control {
+
+    text-align: center;
+
+}
+
+.wd-md-topbar .wd-md-topbar-right a{
+
+	font-style: normal;
+
+	font-weight: 600;
+
+	font-size: 16px;
+
+	line-height: 24px;
+
+	text-align: center;
+
+	color: #FFFFFF;
+
+	background: #0AACDD;
+
+	box-shadow: 0px 1px 9px rgba(10, 172, 221, 0.25);
+
+	border-radius: 24.5px;
+
+	padding: 5px 15px;
+
+	border: 1px solid #0AACDD;
+
+}
+
+.wd-md-topbar .wd-md-topbar-right a:hover{
+
+	text-decoration: none;
+
+	background: #ffffff;
+
+	color: #0AACDD;
+
+}
+
+.wd-md-topbar .wd-md-topbar-right{
+
+	padding-right: 30px;
+
+}
+
+/*====================Sales Record==================*/
+
+/*====================my-expense====================*/
+
+.wd-md-myexpense-popup .modal-content{
+
+	border: none;
+
+	background: #FFFFFF;
+
+	box-shadow: 0px 21px 25px rgba(0, 0, 0, 0.08);
+
+	border-radius: 15px;
+
+}
+
+.wd-md-myexpense-popup .modal-header{
+
+	border: none;
+
+	background: #F7F7F7;
+
+	justify-content: center;
+
+	border-radius: 15px 15px 0px 0px;
+
+}
+
+.wd-md-myexpense-popup .modal-header h4.modal-title{
+
+	font-style: normal;
+
+	font-weight: 600;
+
+	font-size: 20px;
+
+	line-height: 30px;
+
+	color: #353535;
+
+}
+
+.wd-md-myexpense-popup .modal-content .modal-body input{
+
+	background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 15px;
+    height: auto;
+    font-size: 14px;
+    padding: 10px 15px;
+    line-height: normal;
+
+}
+.wd-md-myexpense-popup .modal-content .modal-body  input.wd-cuv{
+    border-radius: 0px 15px 15px 0px;
+}
+.input-group-prepend.wd-prepend span{
+  border-radius: 15px;
+}
+.wd-md-myexpense-popup .modal-content .modal-body input:focus{
+    border: 1px solid rgba(10, 172, 221, 0.5);
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 5%);
+    color: #000000;
+}
+.wd-md-myexpense-popup .modal-content .modal-body textarea:focus{
+    border: 1px solid rgba(10, 172, 221, 0.5);
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 5%);
+    color: #000000;
+}
+.wd-md-myexpense-popup .modal-content .modal-body select:focus{
+    border: 1px solid rgba(10, 172, 221, 0.5);
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 5%);
+    color: #000000;
+}
+.wd-md-myexpense-popup .wd-vat{
+    font-size: 16px;
+}
+.wd-md-myexpense-popup .modal-content .modal-body input::placeholder{
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	font-size: 18px;
+
+	line-height: 27px;
+
+	color: rgb(0 0 0 / 40%);
+
+}
+
+.wd-md-myexpense-popup .modal-content .modal-body input:focus::-webkit-input-placeholder{
+
+	color: rgb(0 0 0 / 80%);
+
+}
+
+.wd-md-myexpense-popup .modal-content .modal-body select{
+
+	background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 15px;
+    position: relative;
+    height: auto;
+    font-size: 14px;
+    padding: 12px 15px 10px;
+    line-height: normal;
+
+}
+
+.wd-md-myexpense-popup .modal-content .modal-body .wd-select{
+
+	position: relative;
+
+}
+
+/*.wd-md-myexpense-popup .modal-content .modal-body .wd-select:before{
+
+	content: '';
+    position: absolute;
+    top: 0;
+    left: 12px;
+    background: url(../images/my-expense/card.png)no-repeat;
+    width: 90px;
+    height: 25px;
+    z-index: 1;
+    margin: 10px 0;
+
+}*/
+
+.wd-md-myexpense-popup .modal-content .modal-body textarea{
+
+	background: #FFFFFF;
+
+	border: 1px solid #E8E8E8;
+
+	border-radius: 15px;
+    width: 100%;
+
+}
+
+.wd-md-myexpense-popup .modal-content .modal-body textarea:focus::-webkit-input-placeholder{
+
+	color: rgb(0 0 0 / 80%);
+
+}
+
+.wd-md-myexpense-popup .modal-content .modal-body textarea::placeholder{
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	font-size: 18px;
+
+	line-height: 27px;
+
+	color: rgb(0 0 0 / 40%);
+
+}
+
+.wd-md-myexpense-popup .modal-footer{
+
+	justify-content: center;
+
+	border: none;
+
+	padding-top: 0;
+
+	padding-bottom: 25px;
+
+}
+
+.wd-md-myexpense-popup .modal-footer button.wd-add-now{
+
+	background: #0AACDD;
+
+	box-shadow: 0px 1px 9px rgba(10, 172, 221, 0.25);
+
+	border-radius: 24.5px;
+
+	font-style: normal;
+
+	font-weight: 600;
+
+	font-size: 16px;
+
+	line-height: 24px;
+
+	text-align: center;
+
+	color: #FFFFFF;
+
+	padding: 7px 35px;
+
+	border: 1px solid #0AACDD;
+
+}
+
+.wd-md-myexpense-popup .modal-footer button.wd-add-now:hover{
+
+	background: #ffffff;
+
+	color: #0AACDD;
+
+}
+
+/*====================my-expense====================*/
+
+/*=====================topbar======================*/
+
+.wd-sl-topheadleft{
+
+	display: flex;
+
+	align-items: center;
+
+
+
+}
+
+.wd-sl-topheadright{
+
+	display: flex;
+
+	align-items: center;
+
+	position: relative;
+
+}
+
+.hidden-menu {
+    position: absolute;
+    background: #f9f9f9;
+    padding: 15px 15px;
+    width: 140px;
+    top: 50px;
+    margin: 0px 5px;
+    box-shadow: 0px 0px 10px #00000038;
+    border-radius: 5px;
+    font-size: 14px;
+    bottom: 0;
+    display: block;
+    height: fit-content;
+    right: 0;
+    line-height: 22px;
+}
+
+.hidden-menu li{
+	margin-bottom: 3px;
+}
+.hidden-menu li:last-child{
+	margin-bottom: 0;
+}
+
+/*=====================topbar======================*/
+
+.wd-sl-container {
+    width: 730px;
+    margin: 0 auto;
+}
+
+
+/*===================manage-billing==============*/
+.wd-md-bottombar .wd-md-container{
+	margin: 0 15px;
+
+}
+.wd-md-bottombar .wd-md-container .wd-md-status-blog{
+	background: #FFFFFF;
+    box-shadow: 0px 11px 15px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+}
+.wd-md-bottombar .wd-md-container .wd-md-status-blog .wd-md-plan-det{
+	padding: 15px 15px 0;
+}
+.wd-md-bottombar .wd-md-container .wd-md-status-blog .wd-md-sts-inner p{
+	font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+	color: rgb(0 0 0 / 70%);
+	margin-bottom: 0;
+}
+.wd-md-bottombar .wd-md-container .wd-md-status-blog .wd-md-sts-inner h2{
+	font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: normal;
+    color: #000000;
+    margin-bottom: 0;
+}
+.wd-md-bottombar .wd-md-container .wd-md-status-blog .wd-md-sts-inner h2 span{
+	color: green;
+	font-size: 16px;
+}
+.wd-md-bottombar .wd-md-container .wd-md-status-blog .wd-md-plan-cancel{
+	padding: 0 15px 15px;
+}
+.wd-md-bottombar .wd-md-container .wd-md-status-blog .wd-md-plan-cancel h3 a{
+	font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: normal;
+    color: red;
+    margin-bottom: 0;
+}
+.wd-md-bottombar .wd-md-container .wd-md-status-blog .wd-md-plan-cancel .wd-md-plan-contactus p{
+	font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+	color: rgb(0 0 0 / 80%);
+	margin-bottom: 0;
+	margin-right: 15px;
+}
+.wd-md-bottombar .wd-md-container .wd-md-status-blog .wd-md-plan-cancel .wd-md-plan-contactus a{
+	font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+	color:#0aacdd;
+	margin-bottom: 0;
+}
+.wd-md-bottombar .wd-md-container h2.wd-md-billing-title{
+	font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: normal;
+    color: #000000;
+    margin:30px 0px 20px;
+}
+.wd-md-bottombar .wd-md-container .wd-md-billing-history{
+
+}
+.wd-md-bottombar .wd-md-container .wd-md-billing-history .wd-md-his-inner{
+	width: 100%;
+}
+.wd-md-bottombar .wd-md-container .wd-md-billing-history .wd-md-his-inner p{
+	font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgb(0 0 0 / 70%);
+    margin-bottom: 0;
+    background: #87ceeb42;
+    text-align: center;
+    padding: 15px 0;
+}
+.wd-md-bottombar .wd-md-container .wd-md-billing-history .wd-md-his-inner h2{
+	font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: normal;
+    color: #000000;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid lightgrey;
+}
+.wd-md-other-plan .wd-md-pills{
+	background: lightgray;
+    border-radius: 25px;
+    width: fit-content;
+    padding: 3px;
+}
+.wd-md-other-plan .wd-md-pills li{
+	margin-right: 0px;
+}
+.wd-md-other-plan .wd-md-pills .nav-link.active, .wd-md-other-plan .wd-md-pills .show>.nav-link{
+	border: 1px solid #0aacdd;
+    background: #FFFFFF;
+    box-shadow: 0px 11px 15px rgb(0 0 0 / 5%);
+    border-radius: 25px;
+    color: #000000;
+    padding: 5px 30px;
+}
+.wd-md-other-plan .wd-md-pills li a{
+	padding: 5px 30px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
+.wd-md-his-inner a{
+	color: #0aacdd;
+}
+.wd-sl-plansblog{
+	padding: 15px;
+}
+.wd-sl-plansblog h2{
+	font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: normal;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.wd-sl-plansblog h4{
+	font-size: 16px;
+	font-weight: 400;
+}
+.wd-sl-plansblog span {
+    display: block;
+    line-height: 30px;
+}
+/*===================manage-billing==============*/
+.price-blogs .our-text p{
+
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+text-transform: capitalize;
+color: #FF6600;
+}
+.price-blogs .main-blog-price .main-price{
+  background: #FFFFFF;
+box-shadow: 5px 12px 24px rgba(0, 0, 0, 0.07);
+border-radius: 32px;
+        position: relative;
+            height: 100%;
+    padding:20px 30px 50px 30px;
+}
+.price-blogs .main-blog-price {
+  margin: 4rem 0;
+  padding: 0 30px;
+}
+.price-blogs .main-blog-price .main-price .starter p{
+
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+color: #000000;
+margin-bottom: 10px;
+}
+.price-blogs .main-blog-price .main-price h4 {
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-size: 40px;
+    line-height: 46px;
+    color: #0AACDD;
+    padding-bottom: 0;
+}
+.price-blogs .main-blog-price .main-price h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+}
+.price-blogs .main-blog-price .main-price h4 span {
+
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: 23px;
+color: #518EF8;
+margin-left: 6px;
+}
+.price-blogs .load-manage .load-w-img{
+  margin-right: 15px;
+}
+.add-blog-two{
+   position: absolute;
+    bottom: 10px;
+}
+.discount{
+  color: #518EF8;
+    font-size: 16px;
+    font-weight: 700;
+}
+.price-blogs .main-blog-price .main-price .add-blog-two p{
+  color: #518EF8;
+    font-size: 16px;
+    font-weight: 700;
+}
+.starter {
+    text-align: center;
+}
+.starter span {
+    text-transform: capitalize;
+}
+.load-manage i {
+    color: #0aacdd;
+}
+.main-price button {
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 30px 0 0;
+}
+.load-manage {
+    text-align: left;
+}
+.price-blogs {
+    width: 80%;
+    margin: 0 auto;
+}
+.wizard button {
+    width: 100% !important;
+    padding: 10px 30px !important;
+}
+img.wd-sl-startimp {
+    position: relative;
+    bottom: 2px;
+    margin: 0px 10px;
+}
+.wd-sl-myweb {
+    margin: 50px auto 0;
+    background: #FFFFFF;
+    box-shadow: 0px 11px 15px rgb(0 0 0 / 5%);
+    border-radius: 15px;
+    padding: 35px 35px 20px;
+    width: 80%;
+}
+.wd-sl-myweb .form-control{
+    outline: none;
+    box-shadow: none;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 10px 15px;
+    line-height: normal;
+    margin-bottom: 30px;
+    height: auto;
+}
+.wd-sl-myweb input.form-control:focus::-webkit-input-placeholder{
+    color: #000000;
+}
+.wd-sl-myweb .login-box .form-group input.form-control:focus{
+    border: 1px solid rgba(10, 172, 221, 0.5);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.05);
+    color: #000000;
+}
+.wd-sl-alltemplt a{
+	font-size: 13px;
+	color: #0aacdd;
+	font-weight: 500;
+}
+.wd-sl-alltemplt h5 {
+    margin: 0 0 30px;
+}
+.wd-sl-alltemplt {
+    width: 90%;
+    margin: 0 auto;
+}
+.wd-sl-anchors {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 5px 30px;
+}
+.wd-sl-alltemplt img {
+    width: 100%;
+}
+a.wd-sl-mywebtop {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 15px 0 15px;
+}
+a.wd-sl-mywebtop img{
+	height: 55px;
+}
+.sidetop-menu ul li a i {
+    font-size: 24px;
+    color: #fff;
+}
+.sidetop-menu ul li a:hover i, .sidetop-menu ul li a.active i {
+    color: #0aacdd;
+}
+.sidetop-menu.website_menu ul li a i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+a.wd-sl-upgrade img {
+    height: 55px;
+    margin-right: 5px;
+}
+.wd-md-rightbar {
+    height: 100%;
+    background: #FAFAFA;
+}
+.wd-md-myexpense-popup .modal-content .modal-body label.error {
+    width: 100%;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+.input-group:not(.has-validation)>.form-control:not(:last-child){
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.wd-pr-myweb .form-control{
+    margin-bottom: 10px;
+}
+.web_img_edit {
+    width: 200px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.wd-sl-myweb .form-control#color {
+    height: 50px;
+}
+.wd-sl-myweb .form-control#secondary_color {
+    height: 50px;
+}
+@media (max-width: 1366px){
+    .wd-sl-height{height: auto;}
+    .wd-sl-dashfeatures span{margin-right: 0;}
+    .wd-sl-textcounter h3{font-size: 14px;}
+    .wd-sl-ftrcount h6{font-size: 11px;}
+    .wd-sl-ftrcount{padding: 10px;}
+}

@@ -1,0 +1,69 @@
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: #78D12A;
+    color: #fff !important;
+    border-color: #78D12A;
+    box-shadow: 1px 6px 9px rgba(0, 0, 0, 0.15);
+    width: 40px;
+    height: 40px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dataTables_wrapper .dataTables_paginate span .paginate_button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dataTables_wrapper .dataTables_paginate span .paginate_button:hover {
+    background: #78D12A;
+    color: #fff !important;
+    border-color: #78D12A;
+    box-shadow: 1px 6px 9px rgba(0, 0, 0, 0.15);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: #78D12A;
+    color: #fff !important;
+    border-color: #78D12A;
+    box-shadow: 1px 6px 9px rgba(0, 0, 0, 0.15);
+}
+table.dataTable thead th
+{
+    padding: 20px 30px;
+}
+table.dataTable tbody td {
+    padding: 15px 30px;
+}
+.wd-sl-custometotal {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 28px 0;
+}
+.wd-sl-custometotal .wd-total{
+    margin-right: 10px;
+}
+.wd-sl-custometotal .wd-total:last-child{
+    margin-right: 0;
+}

@@ -1,0 +1,1147 @@
+/*  Desktop */
+@media all and (min-width: 1601px) and (max-width: 1920px) {}
+
+/* Laptop */
+@media (max-width: 1440px) {
+
+	/*=========home-start==========*/
+	.wd-md-testimonial:before {
+		width: 34%;
+	}
+
+	.wd-md-testimonial:after {
+		left: 34%;
+	}
+
+	.wd-md-about .wd-md-abt-detail {
+		padding: 0 166px 0 15px;
+	}
+
+	.wd-md-about:before {
+		width: 389px;
+		height: 399px;
+		background-size: cover;
+	}
+
+	/*==========home-end===========*/
+}
+
+/* Laptop */
+@media (max-width: 1366px) {
+
+	/*=========home-start==========*/
+	.wd-md-testimonial .wd-md-testimonial-blog:after {
+		right: -46px;
+	}
+
+	.wd-md-offer-blog .wd-md-offer-detail {
+		padding-right: 123px;
+	}
+
+	.wd-md-our-services .wd-md-services-blog {
+		grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
+	}
+
+	.wd-md-our-services .wd-md-services-blog .wd-services-detail {
+		padding: 30px 20px;
+	}
+
+	.wd-md-our-services .wd-md-services-blog .wd-services-detail .wd-services-img {
+		margin-bottom: 21px;
+	}
+
+	.wd-md-our-services .wd-md-services-blog .wd-services-detail img {
+		width: 70px;
+		height: 70px;
+	}
+
+	/*==========home-end===========*/
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {
+
+	/*===========home-start============*/
+	.wd-md-about:before {
+		width: 267px;
+		height: 274px;
+	}
+
+	.wd-md-about .wd-md-abt-detail {
+		padding: 0 30px 0 15px;
+	}
+
+	.wd-md-about .wd-md-abt-img img {
+		height: 375px;
+	}
+
+	.wd-md-about .wd-md-abt-detail h2 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	.wd-md-testimonial .wd-md-testimonial-blog:after {
+		right: -75px;
+	}
+
+	.wd-md-search-car-blog .wd-md-serach-car-form select.wd-md-make-all {
+		width: 180px
+	}
+
+	.wd-md-search-car-blog .wd-md-serach-car-form select {
+		width: 180px;
+	}
+
+	.wd-md-recent-stock-img .wd-md-rec-sto-img-right .rec-sto-right-img.wd-recent-stock-view-more a.wd-view-more-btn {
+		padding: 5px 7px;
+	}
+
+	.wd-md-offer-blog .wd-md-offer-detail {
+		padding-right: 70px;
+	}
+
+	.wd-md-offer-blog .wd-md-offer-img img {
+		margin-top: 0
+	}
+
+	.wd-md-recent-stock .wd-recent-stock-title h2 {
+		color: #322B2C;
+	}
+
+	.wd-md-recent-stock .wd-recent-stock-title p {
+		color: #322B2C;
+	}
+
+	/*===========home-end============*/
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+	br {
+		display: none;
+	}
+
+	/*============header-start=============*/
+	.wd-md-our-services .wd-md-services-blog {
+		grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+	}
+
+	.header-top {
+		display: none;
+	}
+
+	.open .opacity {
+		display: block;
+	}
+
+	.header-top {
+		display: none;
+	}
+
+	.head-bottom.open .nav-menu {
+		left: 0;
+	}
+
+	.mobile-menu {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		font-size: 24px;
+		line-height: 0;
+	}
+
+	.mobile-menu i {
+		color: #fcad90;
+		cursor: pointer;
+	}
+
+	.wd-md-head-logo {
+		display: none;
+	}
+
+	.mobile-menu img {
+		width: 150px;
+		height: 45px;
+		object-fit: contain;
+	}
+
+	.opacity {
+		position: fixed;
+		right: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.7);
+		z-index: 999;
+		display: none;
+	}
+
+	.head-bottom .nav-menu {
+		background: #741528;
+		flex-direction: column;
+		width: 250px;
+		top: 0;
+		display: block !important;
+		left: -250px;
+		position: absolute;
+		bottom: 0;
+		padding: 15px 15px;
+		transition: left 0.5s 0s;
+		z-index: 9999;
+		height: 100vh;
+	}
+
+	.head-bottom .nav-menu ul li a:hover,
+	.head-bottom .nav-menu ul li a.active {
+		border-radius: 5px;
+	}
+
+	.head-bottom .nav-menu svg {
+		display: none;
+	}
+
+	.wd-md-respo-menu {
+		display: flex;
+		align-items: center;
+		justify-content: end;
+	}
+
+	.head-bottom .nav-menu ul {
+		flex-direction: column;
+	}
+
+	.head-bottom .nav-menu ul li {
+		padding: 0;
+	}
+
+	.head-bottom .nav-menu ul li a {
+		display: block;
+		font-size: 18px;
+		color: #ffffff;
+		letter-spacing: 0.5px;
+		padding: 0 5px;
+		margin: 0;
+		line-height: 45px;
+	}
+
+	.close-menu {
+		font-size: 24px;
+		color: #fcad90;
+		cursor: pointer;
+	}
+
+	.head-bottom.open .nav-menu ul li a {
+		width: 100%;
+	}
+
+	.head-bottom.open .nav-menu ul li a.active {
+		color: #ffffff;
+	}
+
+	.head-bottom .nav-menu ul li a.btn-contact {
+		color: #000;
+		box-shadow: none;
+	}
+
+	.head-bottom .wd-md-social-media ul {
+		flex-direction: row;
+		margin-top: 14px;
+	}
+
+	.head-bottom .nav-menu ul.menu li {
+		padding: 5px 0;
+	}
+
+	.head-bottom .nav-menu ul.menu li:last-child {
+		padding-right: 0 !important;
+	}
+
+	.head-bottom .wd-md-social-media ul li.wd-social-icon a {
+		background: #FCAD90;
+		border: 1px solid rgba(255, 255, 255, 0.2);
+		border-radius: 7px;
+		width: 30px;
+		height: 30px;
+		line-height: 28px;
+		display: block;
+		margin-right: 7px;
+		padding: 0 5px;
+		text-align: center;
+	}
+
+	.head-bottom .wd-md-social-media {
+		padding-left: 0;
+	}
+
+	/*=============header-end==============*/
+	/*==========footer-start==============*/
+	.wd-foot-head-bottom {
+		padding: 5px 0px;
+	}
+
+	.wd-md-footer-blog .wd-md-opening-hours .wd-day-time-area {
+		margin: 32px 0 5px;
+	}
+
+	.wd-md-footer-blog hr {
+		margin-top: 14px;
+	}
+
+	.wd-md-footer-blog .wd-md-address-blog p {
+		margin-bottom: 0
+	}
+
+	.wd-md-footer-blog .wd-md-foot-nav h6 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	.wd-md-footer-blog .wd-md-foot-nav ul li a {
+		font-size: 14px;
+		line-height: 35px;
+	}
+
+	.wd-md-footer-blog .wd-md-opening-hours h6 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	.wd-md-footer-blog .wd-md-opening-hours .wd-day-time p {
+		font-size: 14px;
+		line-height: 35px;
+	}
+
+	.wd-md-footer-blog .wd-footer-logo img {
+		width: 130px;
+		height: 30px;
+		margin-bottom: 10px;
+	}
+
+	.wd-md-footer-blog .wd-md-address-blog p {
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	.wd-md-footer-blog .wd-md-opening-hours {
+		padding-right: 0;
+		padding-bottom: 20px;
+	}
+
+	.wd-foot-head-bottom .nav-menu {
+		width: 100%;
+	}
+
+	.wd-foot-head-bottom .nav-menu ul {
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.wd-foot-head-bottom .nav-menu ul.menu li {
+		padding: 0 10px 0 0;
+	}
+
+	.wd-foot-head-bottom .nav-menu ul.menu li:last-child {
+		padding-right: 0;
+	}
+
+	.wd-md-footer-blog .wd-md-foot-nav ul li a:last-child {
+		padding: 0;
+	}
+
+	.wd-md-footer-blog .wd-md-social-media {
+		margin-top: 10px;
+	}
+
+	footer {
+		padding: 30px 0;
+	}
+
+	/*===========footer-end==============*/
+	/*===========home-start==============*/
+	.wd-md-home-main-blog {
+		margin-bottom: 0;
+		padding-top: 50px;
+	}
+
+	.wd-md-home button.car-home-search-btn {
+		background: #ef9570;
+		border: 2px solid #ef9570;
+		font-size: 14px;
+		padding: 25px 10px 8px;
+	}
+
+	.wd-md-rangeslider {
+		padding: 15px 23px 50px;
+	}
+
+	.rangeSlider__handle:after {
+		font-size: 14px;
+		height: 25px;
+		line-height: 25px;
+	}
+
+	.rangeSlider__tooltips {
+		height: 25px;
+	}
+
+	.rangeSlider__tooltip {
+		height: 25px;
+	}
+
+	.wd-md-about:before {
+		width: 166px;
+		height: 170px;
+	}
+
+	.wd-md-about .wd-md-abt-main {
+		flex-direction: column;
+	}
+
+	.wd-md-about .wd-md-abt-img {
+		max-width: 100%;
+		margin-top: 5px;
+		margin-right: 0;
+	}
+
+	.wd-md-about .wd-md-abt-detail {
+		max-width: 100%;
+	}
+
+	.wd-md-our-services .wd-md-services-blog .wd-services-detail img {
+		width: 70px;
+		height: 70px;
+	}
+
+	.wd-md-our-services .wd-md-services-blog .wd-services-detail .wd-services-img {
+		margin-bottom: 18px;
+	}
+
+	.wd-md-our-services .wd-md-services-blog .wd-services-detail {
+		padding: 27px 20px;
+	}
+
+	.wd-md-home {
+		height: 435px;
+	}
+
+	.wd-md-home .wd-md-logo-slider .wd-md-logo-blog img {
+		width: 60px;
+		height: 60px;
+		margin: 14px auto;
+	}
+
+	.wd-md-home-title h1 {
+		font-size: 21px;
+		line-height: 30px;
+	}
+
+	.wd-md-home-title p {
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	.wd-md-testimonial .wd-review-img img {
+		margin-left: -407px;
+	}
+
+	.wd-home-search-car-blog.wd-md-search-car-blog {
+		padding: 15px 0 5px;
+	}
+
+	.wd-md-search-car-blog .wd-md-serach-car-form select.wd-md-make-all {
+		width: 49%;
+		margin-bottom: 10px;
+	}
+
+	.wd-md-search-car-blog .wd-md-serach-car-form select {
+		width: 49%;
+		font-size: 14px;
+		height: 41px;
+	}
+
+	.wd-md-search-car-blog .wd-md-serach-car-form button.car-search-btn {
+		margin: 10px auto 0;
+		font-size: 14px;
+		height: 41px;
+	}
+
+	.wd-md-about .wd-md-about-title h2 {
+		font-size: 21px;
+		margin-bottom: 45px;
+	}
+
+	.wd-md-about .wd-md-abt-img:before {
+		top: 25px;
+	}
+
+	.wd-md-about .wd-md-abt-img img {
+		height: 100%;
+	}
+
+	.wd-md-about .wd-md-abt-detail {
+		margin-top: 30px;
+		margin-left: 0;
+	}
+
+	.wd-md-about .wd-md-abt-detail h2 {
+		font-size: 21px;
+		line-height: 41px;
+	}
+
+	.wd-md-about .wd-md-abt-detail p {
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	.wd-md-our-services .wd-md-our-ser-title h2 {
+		font-size: 21px;
+		line-height: 26px;
+	}
+
+	.wd-md-our-services .wd-md-our-ser-title p {
+		font-size: 14px;
+	}
+
+	.wd-md-our-services .wd-md-services-blog .wd-services-detail p {
+		font-size: 14px;
+	}
+
+	.wd-md-our-services {
+		padding: 25px 0;
+	}
+
+	.wd-md-testimonial {
+		height: 100%;
+		padding: 30px 0;
+	}
+
+	.wd-md-testimonial:before {
+		display: none;
+	}
+
+	.wd-md-testimonial:after {
+		display: none;
+	}
+
+	.wd-md-testimonial .wd-md-testimonial-detail h2 {
+		font-size: 21px;
+		line-height: 32px;
+	}
+
+	.wd-md-testimonial .wd-md-testimonial-detail p {
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	.wd-md-testimonial .wd-md-testimonial-blog .wd-md-testimo-descripation h6 {
+		font-size: 21px;
+		line-height: 32px;
+	}
+
+	.wd-md-testimonial .wd-md-testimonial-blog .wd-md-testimo-descripation p {
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	.wd-md-testimonial .wd-md-testimonial-blog .item {
+		padding-left: 0;
+	}
+
+	.wd-md-testimonial .wd-md-testimonial-blog:before {
+		display: none;
+	}
+
+	.wd-md-testimonial .wd-md-testimonial-blog:after {
+		display: none;
+	}
+
+	.wd-md-testimonial .wd-md-testimonial-blog .owl-nav {
+		left: 45%;
+		bottom: 8%;
+	}
+
+	.wd-md-recent-title h2 {
+		font-size: 21px;
+		line-height: 32px;
+	}
+
+	.wd-md-recent-title p {
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	.wd-md-recent-stock-img .wd-rec-sto-img-main img {
+		height: 350px;
+	}
+
+	.wd-md-recent-stock-img .wd-rec-sto-img-main .wd-md-car-description {
+		flex-direction: column;
+		align-items: flex-start !important;
+	}
+
+	.wd-md-recent-stock-img .wd-rec-sto-img-main .wd-md-car-description .car-name h6 {
+		font-size: 21px;
+		line-height: 32px;
+	}
+
+	.wd-md-recent-stock-img .wd-rec-sto-img-main .wd-md-car-description .car-name p {
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	.wd-md-recent-stock-img .wd-rec-sto-img-main .wd-md-car-description .car-price p {
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	.wd-md-recent-stock-img .wd-md-rec-sto-img-right {
+		margin-top: 30px;
+	}
+
+	.wd-md-recent-stock-img .wd-md-rec-sto-img-right .rec-sto-right-img {
+		margin-bottom: 30px;
+	}
+
+	.wd-md-recent-stock-img .wd-rec-sto-img-main .wd-md-car-logo {
+		left: 14px;
+		top: 14px;
+	}
+
+	.wd-md-recent-stock-img .wd-rec-sto-img-main .wd-md-car-logo img {
+		width: 96px;
+		height: 43px;
+	}
+
+	.wd-md-recent-stock-img .wd-md-rec-sto-img-right .rec-sto-right-img.wd-recent-stock-view-more a.wd-view-more-btn {
+		bottom: 41%;
+		right: 41%;
+	}
+
+	.wd-md-offer-blog .wd-md-offer-detail {
+		padding: 0px 0px;
+	}
+
+	.wd-md-offer-blog .wd-md-offer-detail h2 {
+		font-size: 21px;
+		line-height: 32px;
+	}
+
+	.wd-md-offer-blog .wd-md-offer-detail p {
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	a.wd-md-read-more-btn {
+		font-size: 14px;
+	}
+
+	.wd-md-offer-blog .wd-md-offer-img img {
+		width: 50%;
+		height: 230px;
+	}
+
+	.wd-stock-list-main-blog .wd-stock-list-title h1 {
+		font-size: 21px;
+		line-height: 32px;
+	}
+
+	.wd-stock-list-main-blog .wd-stock-list-title p {
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	.wd-display-vehicles p {
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	.wd-display-vehicles select.custom-select {
+		width: 141px;
+	}
+
+	.wd-md-testimonial .wd-md-testimonial-title h2 {
+		font-size: 27px;
+	}
+
+	.wd-md-testimonial .wd-md-testimonial-title p {
+		font-size: 14px;
+	}
+
+	.wd-md-testimonial .wd-md-testi-box {
+		margin-bottom: 20px;
+	}
+
+	.wd-md-testimonial .wd-testimonial-view-btn-blog {
+		margin-top: 20px;
+	}
+
+	.wd-sl-stocks .wd-md-stock-img {
+		padding: 50px 15px 5px;
+	}
+
+	.wd-sl-stocks .wd-md-stock-img img.stock-car-img {
+		height: 180px;
+	}
+
+	.wd-sl-stocks .wd-md-stock-img img.wd-bg-logo {
+		height: 84px;
+	}
+
+	.wd-md-recent-stock a.wd-discover-car-btn {
+		padding: 7px;
+		width: 230px;
+		margin: 5px auto 0;
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	.wd-md-recent-stock {
+		padding: 30px 0;
+		background-position: center;
+	}
+
+	.wd-md-recent-stock .wd-recent-stock-title h2 {
+		font-size: 21px;
+		line-height: 36px;
+	}
+
+	.wd-md-recent-stock .wd-recent-stock-title p {
+		font-size: 14px;
+		line-height: 26px;
+		margin-bottom: 0;
+	}
+
+	.wd-md-recent-stock .wd-recent-stock-title {
+		padding-bottom: 15px;
+	}
+
+	.wd-md-offer-blog {
+		padding: 25px 0;
+	}
+
+	a.wd-md-read-more-btn {
+		padding: 5px 23px;
+	}
+
+	/*================slider-start===============*/
+	.new-feature-slider .feature-slide {
+		flex-direction: column;
+	}
+
+	.wd-md-recent-stock-slider {
+		height: 1000px;
+	}
+
+	.wd-md-recent-stock-slider .wd-add-recent-stock {
+		margin: 100px auto;
+	}
+
+	.wd-md-recent-stock-slider .wd-slide-left {
+		width: 100%;
+		order: 2;
+		margin-top: 20px;
+	}
+
+	.wd-md-recent-stock-slider .wd-slide-right {
+		width: 100%;
+	}
+
+	.wd-md-recent-stock-slider .content-centered p {
+		padding: 15px 0 0;
+		font-size: 14px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+	}
+
+	/*================slider-end==================*/
+	/*=============home-end==============*/
+	/*=============stock-list-start===========*/
+	.wd-md-stock-pagination {
+		width: 80%;
+	}
+
+	.wd-sl-stocks img {
+		height: 190px;
+	}
+
+	.wd-sl-stock_top img {
+		width: 70px;
+		height: 35px;
+	}
+
+	.wd-stock-list-serach-car .wd-md-search-car-blog {
+		margin-top: 25px;
+	}
+
+	.wd-car-stock-detail-blog .wd-display-vehicles {
+		padding: 30px 0 20px;
+	}
+
+	/*=============stock-list-end=============*/
+	/*============search-car-start============*/
+	.wd-stock-list-main-blog {
+		height: 250px;
+	}
+
+	.wd-sl-stock_topright span {
+		font-size: 18px;
+	}
+
+	.wd-sl-stock_topright small {
+		font-size: 14px;
+	}
+
+	.wd-main-search-car-blog {
+		padding: 30px 0;
+	}
+
+	.wd-main-search-car-blog .wd-search-car-result {
+		margin-top: 30px;
+	}
+
+	.wd-sl-stock_content h4 {
+		font-size: 23px;
+		line-height: 26px;
+	}
+
+	.wd-sl-stock_content {
+		padding: 15px;
+	}
+
+	.wd-search-fillter-blog .fillter-head h3 {
+		font-size: 18px;
+	}
+
+	/*============search-car-end=============*/
+	/*============contact-us-start==============*/
+	.wd-contact-blog h5 {
+		font-size: 21px;
+	}
+
+	.wd-contact-blog p a {
+		font-size: 14px;
+		padding: 0;
+	}
+
+	.wd-contact-blog p {
+		font-size: 14px;
+		padding: 0;
+	}
+
+	.wd-open-form-blog {
+		padding: 30px 0;
+	}
+
+	.wd-open-form-blog .wd-md-contact-form h6 {
+		font-size: 21px;
+		line-height: 26px;
+	}
+
+	.wd-open-form-blog .wd-md-contact-form p {
+		font-size: 14px;
+		line-height: normal;
+	}
+
+	.wd-open-form-blog .wd-md-contact-form input {
+		height: 41px;
+	}
+
+	.wd-open-form-blog .wd-contact-blog {
+		margin: 30px 0;
+	}
+
+	.wd-open-form-blog .wd-md-contact-form button.wd-get-in-btn {
+		font-size: 14px;
+	}
+
+	.wd-open-form-blog .wd-contact-opening-hours h6 {
+		font-size: 21px;
+	}
+
+	.wd-open-form-blog .wd-contact-opening-hours .wd-day-time p {
+		font-size: 14px;
+	}
+
+	/*============contact-us-end================*/
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+
+	/*=============home-start==============*/
+	.wd-md-home-main-blog {
+		width: auto;
+	}
+
+	.wd-md-testimonial .wd-review-img img {
+		min-width: 100%;
+		margin-left: 0;
+		height: 355px;
+	}
+
+	.wd-md-testimonial .owl-carousel:before {
+		display: none;
+	}
+
+	.wd-md-testimonial .owl-carousel {
+		margin-bottom: 30px;
+	}
+
+	.wd-md-recent-stock-img .wd-md-rec-sto-img-right .rec-sto-right-img.wd-recent-stock-view-more a.wd-view-more-btn {
+		bottom: 41%;
+		right: 37%;
+	}
+
+	/*=============home-end==============*/
+	.contact-card {
+		padding: 20px;
+	}
+
+	.contact-card span,
+	.contact-card a {
+		font-size: 13px;
+	}
+
+	.wd-md-contact-form br {
+		display: block;
+	}
+
+	.wd-md-stock-main p {
+		font-size: 14px;
+		margin-bottom: 0;
+	}
+
+	.wd-md-contact-form .container-fluid {
+		padding: 0;
+	}
+
+	.wd-md-stock-main {
+		height: auto;
+		padding: 120px 0 0 !important;
+	}
+
+	.wd-md-stock-main h3:after {
+		display: none;
+	}
+
+	.wd-sl-logo img,
+	.active_head .wd-sl-logoblue img {
+		width: 70%;
+	}
+
+	.wd-sl-logo,
+	.active_head .wd-sl-logoblue {
+		text-align: end;
+	}
+
+	.f-timing {
+		margin: 1rem 0;
+	}
+
+	/*===========search-car-start==============*/
+	.wd-main-search-car-blog .wd-md-stock-pagination.pagi-search {
+		width: 100% !important;
+	}
+
+	/*===========search-car-end===============*/
+
+	.wd-md-recent-stock .container {
+		max-width: 100%;
+	}
+
+	.wd-car-stock-detail-blog .container {
+		max-width: 100%;
+	}
+	.wd-md-search-car-blog .form-inline{
+		display: block;
+		text-align: -webkit-center;
+		align-items: center;
+	}
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+	/*============footer-start========*/
+	.wd-foot-head-bottom .nav-menu ul {
+		justify-content: space-evenly;
+	}
+
+	/*============footer-end=========*/
+	/*===========home-start===========*/
+	.wd-md-about:before {
+		width: 122px;
+		height: 125px;
+	}
+
+	.wd-md-testimonial .wd-md-testi-blog p {
+		font-size: 14px;
+	}
+
+	.wd-md-testimonial .wd-md-testi-blog h6 {
+		font-size: 18px;
+	}
+
+	.wd-md-recent-stock-slider {
+		height: 802px;
+	}
+
+	.wd-md-about .wd-md-abt-img:before {
+		display: none;
+	}
+
+	.wd-md-about .wd-md-abt-img {
+		margin-top: 15px;
+	}
+
+	.wd-md-about .wd-md-abt-detail {
+		margin-top: 15px;
+	}
+
+	.wd-md-about {
+		padding: 210px 0 15px;
+	}
+
+	.wd-md-home .wd-md-logo-slider {
+		display: none;
+	}
+
+	.wd-md-offer-blog .wd-md-offer-img img {
+		width: 100%;
+	}
+
+	.wd-md-recent-stock-img .wd-md-rec-sto-img-right .rec-sto-right-img.wd-recent-stock-view-more a.wd-view-more-btn {
+		right: 26%;
+	}
+
+	/*==========slider-start===========*/
+	.wd-md-recent-stock-slider .wd-add-recent-stock {
+		margin: 104px auto;
+		height: 280px;
+	}
+
+	.wd-car-slide-box img {
+		height: 160px;
+	}
+
+	.wd-car-slide-box h2 {
+		font-size: 23px;
+	}
+
+	.wd-car-slide-box .wd-car-view-detail {
+		padding-top: 0;
+	}
+
+	.wd-car-slide-box .wd-car-slide-detail .wd-car-name-blog h6 {
+		line-height: 26px;
+	}
+
+	.wd-car-slide-box .wd-car-slide-detail .wd-car-name-blog span {
+		font-size: 14px;
+	}
+
+	.wd-car-slide-box .wd-car-view-detail a.wd-view-btn {
+		padding: 5px 9px;
+	}
+
+	.wd-car-view-detail .new-feature-controls .control {
+		width: 41px;
+		height: 41px;
+	}
+
+	.wd-md-recent-stock-slider .content-centered img {
+		width: 75px;
+		height: 60px;
+	}
+
+	.wd-md-recent-stock-slider .content-centered h2.car-name {
+		font-size: 23px;
+		line-height: 26px;
+	}
+
+	.wd-car-slide-box .wd-car-slide-detail p {
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	.wd-car-slide-box .wd-car-inner-des .wd-car-slide-detail {
+		flex-direction: column;
+		align-items: flex-start !important;
+	}
+
+	/*=========slider-end==============*/
+	/*===========home-end============*/
+	/*===========stock-list-start=======*/
+	.wd-md-stock-pagination {
+		width: 100%;
+	}
+
+	.wd-stock-car-details .wd-stock-det-bottom img {
+		height: 200px;
+	}
+
+	/*==========stock-list-end==========*/
+	/*===========search-car-start=========*/
+	.wd-md-stock-pagination ul .page-link {
+		width: 32px;
+		height: 32px;
+	}
+
+	.wd-car-image-descripation .wd-car-descripation .wd-car-detail-btn-blog {
+		flex-direction: column;
+		align-items: flex-start !important;
+	}
+
+	.wd-car-image-descripation .wd-car-descripation .wd-car-detail-btn-blog a.wd-get-fin-btn {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.wd-car-image-descripation .wd-car-descripation .wd-car-detail-btn-blog a.wd-veh-det-btn {
+		width: 100%
+	}
+
+	/*===========search-car-end=========*/
+}
+
+@media screen and (max-width: 414px) {
+
+	/*============home-start============*/
+	.wd-md-testimonial .wd-md-testimonial-blog .owl-nav {
+		bottom: -16%;
+		left: 40%;
+	}
+
+	.wd-md-testimonial {
+		padding: 20px 0 60px;
+	}
+
+	/*============home-end============*/
+	/*===========stock-list-start=======*/
+	.wd-stock-car-details .wd-stock-det-bottom .wd-stock-car-inner-detail {
+		grid-template-columns: repeat(auto-fit, minmax(122px, 1fr));
+	}
+
+	/*==========stock-list-end==========*/
+	/*===========search-car-start=========*/
+	.wd-search-car-result .wd-car-search-detail .wd-car-image-descripation .wd-car-images-blog img {
+		height: 230px;
+	}
+
+	/*============search-car-end==========*/
+}
+
+@media screen and (max-width: 375px) {
+
+	/*===========search-car-start=========*/
+	.wd-search-car-result .wd-car-search-detail .wd-car-image-descripation .wd-car-images-blog img {
+		height: 183px;
+	}
+
+	/*============search-car-end==========*/
+}

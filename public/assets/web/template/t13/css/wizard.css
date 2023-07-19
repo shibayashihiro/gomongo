@@ -1,0 +1,126 @@
+#wizard{
+    padding: 0 0 100px;
+}
+.wd-sl-wform {
+    background: #0F163D;
+    box-shadow: 20px 34px 74px rgb(16 23 61 / 25%);
+}
+.wd-sl-wform .row{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 25px 10px 10px;
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.wd-sl-wform h6{
+    padding: 25px;
+    font-size: 22px;
+    margin: 0;
+    font-weight: 600;
+    color: #fff;
+}
+.wd-sl-wform .form-control {
+    background: #1A2C62;
+    box-shadow: 4px 4px 28px rgba(69, 69, 68, 0.2);
+    border: none;
+    border-radius: 0;
+    height: auto;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 11px 20px;
+}
+.wd-sl-wform .form-group label{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0;
+}
+.wizard_col-grid{
+    max-width: 100%;
+    margin: 0.6rem auto 1rem;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.wd-sl-wizard .nav a {
+    padding: 0 !important;
+    position: relative;
+    left: 30px;
+    margin-bottom: 70px;
+    top: 5px;
+}
+.wd-sl-wizard .nav span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0.7;
+}
+.wd-sl-wizard .nav a:last-child{
+    margin-bottom: 0;
+}
+.wd-sl-wizard .nav a.active{
+    background-color: transparent;
+}
+.wd-sl-wizard .nav a.active span{
+    opacity: 1;
+}
+.wd-sl-wizard .nav a:before{
+    content: "";
+    display: inline-block;
+    background: #1A2C62;
+    border: 2px solid var(--secondary);
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: -44px;
+    top: -5px;
+}
+.wd-sl-wizard #v-pills-tab:before {
+    content: "";
+    border-left: 2px solid var(--secondary);
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.wd-sl-wizard #v-pills-tab {
+    position: relative;
+}
+.wd-sl-wizard .nav a.active:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 20px;
+    background: url(../images/check-solid.svg) no-repeat;
+    background-size: contain;
+    left: -37px;
+    top: 4px;
+}
+.wd-sl-wizard #v-pills-step1 .wd-sl-wizardbtn{
+    justify-content: flex-end;
+}
+.wd-sl-wform .wd-sl-wizardbtn {
+    padding: 25px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wd-sl-wform .wd-sl-backbtn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.wd-sl-wform .wd-sl-backbtn svg {
+    width: 18px;
+}
+.wd-sl-wform p {
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 1.8;
+}

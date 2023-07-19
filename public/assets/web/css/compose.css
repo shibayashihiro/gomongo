@@ -1,0 +1,17 @@
+#kt_inbox_form_editor{
+    height: 350px;
+}
+.ql-toolbar{
+    padding-left:0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.min-h-50px{
+    min-height: 50px !important;
+}
+.align-items-center{
+    align-items: center !important;
+}

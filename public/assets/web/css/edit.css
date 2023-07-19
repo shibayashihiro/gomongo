@@ -1,0 +1,523 @@
+.wd-edit-btn img {
+
+    width: 30px !important;
+
+    height: 30px !important;
+
+    object-fit: contain !important;
+
+    border-radius: 50% !important;
+    background: #fff;
+
+}
+
+#header {
+
+    position: relative;
+
+}
+
+.wd-edit-topbar {
+
+    position: absolute;
+
+    left: 41px;
+
+    top: 7px;
+
+}
+
+.wd-edit-header {
+
+    position: absolute;
+
+    left: 41px;
+
+    top: 20px;
+
+}
+
+.header-bottom.active_head .wd-edit-header {
+
+    position: absolute;
+
+    left: 41px;
+
+    top: 21px;
+
+}
+
+.wd-edit-fir-sec {
+
+    position: absolute;
+
+    left: 41px;
+
+    top: 135px;
+    z-index: 1;
+}
+
+#about-us-top {
+
+    position: relative;
+
+}
+
+.wd-edit-abt-top {
+
+    position: absolute;
+
+    left: 41px;
+
+    top: 35px;
+
+}
+
+#about-us {
+
+    position: relative;
+
+}
+
+.wd-edit-abt-us {
+
+    position: absolute;
+
+    left: 41px;
+
+    top: 50px;
+
+    z-index: 11;
+
+}
+
+#welcome {
+    position: relative;
+}
+
+.wd-edit-welcome-section {
+    position: absolute;
+    top: 0;
+    left: 41px;
+}
+
+.wd-edit-category-car {
+    position: absolute;
+    z-index: 11;
+}
+
+.wd-edit-abt-us-lower {
+    position: absolute;
+    left: 41px;
+    z-index: 11;
+}
+
+#our-services {
+
+    position: relative;
+
+}
+
+.wd-edit-our-ser {
+
+    position: absolute;
+
+    left: 41px;
+
+    top: 0px;
+
+}
+
+wd-edit-our-ser-t4 {
+    position: absolute;
+
+    left: 41px;
+}
+
+.wd-edit-our-ser-det .wd-ser-box {
+
+    background: #ffffff;
+
+    box-shadow: 0px 5px 10px 8px #e9ecef;
+
+    border-radius: 15px;
+
+    padding: 15px;
+
+    margin-bottom: 15px;
+
+}
+
+.wd-edit-our-ser-det .wd-ser-box .wd-md-ser-img-o {
+
+    background: #FE5B3E;
+
+    border-radius: 21px;
+
+    padding: 10px 0;
+
+    width: 43px;
+
+    text-align: center;
+
+}
+
+.wd-edit-our-ser-det .wd-ser-box .wd-md-ser-img {
+
+    background: #474FA0;
+
+    border-radius: 21px;
+
+    padding: 10px 0;
+
+    width: 43px;
+
+    text-align: center;
+
+}
+
+.wd-edit-our-ser-det .wd-ser-box img {
+
+    object-fit: contain;
+
+    width: 23px;
+
+    height: 23px;
+
+}
+
+.wd-edit-our-ser-det .wd-ser-box h5 {
+
+    font-size: 18px;
+
+    font-weight: 500;
+
+    color: #000;
+
+    margin-bottom: 0;
+
+    margin-left: 10px;
+
+}
+
+.our-ser-form-add {
+
+    display: none;
+
+    position: relative;
+
+    top: 0;
+
+    right: 0;
+
+}
+
+.wd-sl-imgbrs {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* #our-services .services-blog .row .col-md:last-child {
+    margin: 24px;
+} */
+
+#our-services .services-blog .row .col-md.add-btn {
+    margin: 24px;
+}
+
+.wd-edit-testimonial {
+    position: absolute;
+    left: 41px;
+    z-index: 11;
+}
+
+.services-blog .wd-md-ser-img-o {
+    height: 110px;
+}
+
+.services-blog .wd-md-ser-img-o i {
+    line-height: 40px;
+}
+
+.modal-dialog {
+    max-width: 700px;
+}
+
+.wd-md-our-work-blog-img {
+    height: 300px;
+}
+
+#our-work .wd-md-our-work-blog img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wd-md-our-work-blog-img a {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.wd-md-our-work-blog-img a i {
+    font-size: 41px;
+}
+
+.wd-md-our-work-blog .stock_div .col-md-4.col-12 {
+    margin-top: 30px;
+}
+
+.wd-md-our-work-blog .stock_div .stock-action-add-more {
+    margin-top: 53px !important;
+}
+
+.testimonial-action-add-btn {
+    background: #F4F5F7;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 24px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-action-add-btn .client-area {
+    justify-content: center;
+}
+
+.testimonial-action-div {
+    text-align: right;
+}
+
+.stock-action-div {
+    text-align: center;
+}
+
+#r-more-section .more-img img {
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+#r-more-section {
+    padding-bottom: 30px;
+}
+
+/*================t-1-start=============*/
+.services-img.service-add-btn-t1 {
+    margin-top: 24px;
+}
+
+.services-img.service-add-btn-t1 .wd-md-ser-img-o {
+    display: flex;
+    height: 130px;
+    background: #fff;
+    box-shadow: 0px 4px 94px rgb(0 0 0 / 5%);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial-action-add-btn-t1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0px 4px 94px rgb(0 0 0 / 5%);
+    border-radius: 20px;
+    padding: 20px;
+    flex-direction: column;
+    margin-top: 24px;
+    height: 280px;
+}
+
+.testimonial-action-add-btn-t1 .slide-box {
+    box-shadow: none !important;
+}
+
+.stock-action-add-more .wd-md-our-work-blog-img-t1 {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 4px 94px rgb(0 0 0 / 5%);
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.services-box.service-add-btn-t3 .wd-md-ser-img-o {
+    height: auto;
+}
+
+/*===============t-1-end================*/
+/*===============t3-start===============*/
+.services-box.service-add-btn-t3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.testimonial-action-add-btn-t3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    padding: 40px 40px 40px;
+    box-shadow: 0px 4px 94px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+    margin-top: 24px;
+    height: 306px;
+}
+
+.wd-md-our-work-blog-img-t3 {
+    background: #fff;
+    padding: 40px 40px 40px;
+    box-shadow: 0px 4px 94px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 230px;
+    margin-top: 24px;
+    width: calc(50% - 7.5px);
+}
+
+/*=============t3-end==================*/
+/*=============t4-start==================*/
+.service-add-btn-t4 {
+    background: #FFFFFF;
+    box-shadow: 0px 16px 40px rgb(179 179 179 / 25%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    margin-top: 24px;
+    height: 100%;
+    border-bottom: 12px solid #252B2F;
+    flex-direction: column;
+}
+
+#services .grybg.new-car-service .owl-carousel .owl-item img {
+    height: 235px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.stock-action-add-more .wd-md-our-work-blog-img-t4 {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 40px rgb(149 147 147 / 25%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 235px;
+    margin-top: 24px;
+}
+
+.testimonial-action-add-btn-t4 {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 40px rgb(149 147 147 / 25%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 290px;
+    margin-top: 73px;
+}
+
+.testimonial-action-add-btn-t4 .card {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    height: auto !important;
+}
+
+.testimonial-action-add-btn-t4 .card:before {
+    display: none !important;
+}
+
+#Testimonial .owl-carousel .owl-item img {
+    border-radius: 50%;
+}
+
+.footer-cont {
+    width: 100%;
+}
+
+/*=============t4-end==================*/
+/*===============t-5-start=============*/
+.wd-edit-our-ser-t4 {
+    position: absolute;
+    left: 41px;
+    z-index: 11;
+}
+
+.testimonial-action-add-btn-t5 {
+    background: #fff;
+    padding: 40px 40px 40px;
+    box-shadow: 0px 4px 94px rgb(0 0 0 / 5%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 24px;
+    height: 344px;
+}
+
+.testimonial-action-add-btn-t5 .slide-box {
+    box-shadow: none !important;
+    padding: 10px !important;
+}
+
+.testimonial-action-add-btn-t5 .slide-box span {
+    width: auto !important;
+}
+
+/*==============t-5-end=============*/
+@media (max-width: 1366px) {
+    .wd-md-our-work-blog-img {
+        height: 200px;
+    }
+
+    #our-work .wd-md-our-work-blog img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+/* for blank page */
+#blank {
+    height: 50vh;
+}
+
+.wd-sl-edit10 {
+    position: absolute;
+    left: 41px;
+    top: 15px;
+}
+
+.modal .form-group input[type=file] {
+    height: auto;
+    border: none;
+    border-radius: 0;
+}
+
+.modal .form-group input {
+    height: auto;
+}

@@ -1,0 +1,199 @@
+/*----- HEADER -----*/
+.wd-sl-header_left{
+    background: url(../images/header-vector.png) no-repeat;
+    background-position: left;
+    background-size: contain;
+    height: 120px;
+    min-width: 665px;
+    max-width: 665px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+}
+.wd-sl-header_left img{
+    width: 90%;
+}
+.wd-sl-hedaer_right {
+    width: calc(100% - 420px);
+    position: absolute;
+    right: 0;
+}
+.wd-sl-header_mains{
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+.header-top {
+    background: var(--secondary);
+    padding: 10px 0;
+}
+.head-top {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+}
+.head-top p, .head-top a, .head-top span{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0 10px 0 0;
+    display: flex;
+    align-items: center;
+}
+.head-top svg{
+    width: 13px;
+    height: 13px;
+    margin-right: 10px;
+    top: -2px;
+    position: relative;
+}
+.head-top p{
+    margin-right: 0;
+}
+.head-top a:hover {
+    color: var(--primary);
+}
+.head-top p i, .head-top a i {
+    margin-right: 10px;
+    color: var(--primary);
+}
+.active_head .header-bottom{
+    background: var(--primary);
+}
+.header-bottom {background: var(--primary);
+    width: 100%;padding: 0px 0;}
+.head-bottom {
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+.head-bottom img {
+    width: 100%;
+    height: 61px;
+    object-fit: contain;
+}
+.head-bottom .nav-menu ul {
+    display: flex;
+}
+.active_head {
+    background: var(--primary);
+}
+.head-bottom .nav-menu ul li a {
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    border-bottom: 3px solid transparent;
+}
+.head-bottom .nav-menu ul li a:hover, .head-bottom .nav-menu ul li a.active {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.18) 0%, rgba(0, 0, 0, 0) 100%);
+    border-bottom: 3px solid #FFF;
+}
+/*----- FOOTER -----*/
+#footer {
+    background-image: url(../images/footerbg.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding: 200px 0 100px;
+    width: 100%;
+}
+.wd-sl-footermenus h6 {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 0 12px 5px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.wd-sl-footermenus h6:after{
+	content: "";
+    background-color: #FD750F;
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+}
+ul.wd-sl-fmenu_inner li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 10px;
+    position: relative;
+}
+ul.wd-sl-fmenu_inner li a.active{
+    color: var(--primary);
+}
+ul.wd-sl-fmenu_inner li a:before{
+	content: "";
+    background: var(--primary);
+    border-radius: 50%;
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin: 3px 10px 3px 0;
+}
+.wd-sl-footermenus ul li span, .wd-sl-footermenus a {
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    color: #FFF;
+}
+.wd-sl-footermenus ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+}
+ul.wd-sl-linfoftr li {
+    display: block;
+    margin-bottom: 10px;
+}
+ul.wd-sl-linfoftr span {
+    color: var(--primary) !important;
+}
+ul.wd-sl-linfoftr li ul {
+    display: block;
+    margin: 10px 0 0;
+}
+ul.wd-sl-linfoftr li ul li {
+    display: inline-block;
+}
+ul.wd-sl-linfoftr hr {
+    border-color: rgb(255 255 255 / 10%);
+}
+.wd-sl-footertime li:hover{
+	background:var(--primary);
+    cursor: pointer;
+}
+.wd-sl-footertime li{
+	margin-bottom: 10px;
+	padding: 5px 10px;
+}
+.mobile-menu, .opacity, .wd-md-respo-menu {
+    display: none;
+}
+.header-top ul{
+    display: block;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    text-align: right;
+}
+.header-top ul li{
+    display: inline-block;
+}

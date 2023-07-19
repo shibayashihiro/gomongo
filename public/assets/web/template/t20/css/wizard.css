@@ -1,0 +1,419 @@
+.wd-sl-wizard .form-group{
+    margin-bottom: 30px;
+}
+.wd-sl-wizard .form-control{
+    outline: none;
+    box-shadow: none;
+    background: #EFEFFF;
+    border-radius: 4px;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(50 49 92 / 40%);
+    padding: 15px 20px;
+    height: 50px;
+}
+.wd-sl-wizard .form-control::placeholder{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(50 49 92 / 40%);
+}
+.wd-sl-wizard .form-control:disabled, .form-control[readonly]{
+     background-color: #fff;
+}
+/*---------signup-step-------------*/
+.wizard {
+    padding-top:0px;
+}
+.wd-sl-wizard .bg-color{
+     background-color: #333;
+}
+.wd-sl-wizard{
+     padding: 3rem 0;
+     background: #FFFFFF;
+}
+.wd-sl-wizard h2.wd-step-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #32315C;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.wd-sl-wizard .wizard .nav-tabs {
+    position: relative;
+    margin-bottom: 0;
+    border-bottom-color: transparent;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.wd-sl-wizard .wizard > div.wizard-inner {
+    position: relative;
+    margin-bottom:30px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 70px;
+    padding: 20px;
+}
+.wd-sl-wizard .wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+     color: #555555;
+     cursor: default;
+     border: 0;
+     border-bottom-color: transparent;
+     text-decoration: none;
+}
+.wd-sl-wizard span.round-tab {
+     width: 40px;
+     height: 40px;
+     line-height: normal;
+     display: inline-block;
+     border-radius: 50%;
+     background: #32315C;
+     z-index: 111;
+     position: relative;
+     left: 0;
+     text-align: center;
+     border: 1px solid #ddd;
+     padding: 6px;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     color: #FFFFFF;
+}
+.wd-sl-wizard span.round-tab i{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    color: #000000;
+    opacity: 0.5;
+}
+.wd-sl-wizard .wizard li.active span.round-tab {
+    background: #6A52FE;
+    color: #fff;
+    border-color: #6A52FE;
+}
+.wd-sl-wizard .wizard li.active i{
+     color: #32315C!important;
+}
+.wd-sl-wizard .wizard .nav-tabs > li {
+     width: auto;
+}
+.wd-sl-wizard .wizard .nav-tabs > li a {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    border-radius: 100%;
+    padding: 0;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wd-sl-wizard .wizard .nav-tabs > li a i{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgb(50 49 92 / 70%);
+    padding:0 12px 0;
+    text-align: left;
+}
+.wd-sl-wizard .wizard .nav-tabs > li a:hover {
+     background: transparent;
+}
+.wd-sl-wizard .wizard .tab-pane {
+     position: relative;
+     padding-top: 20px;
+}
+.wd-sl-wizard .wizard h3 {
+     margin-top: 0;
+}
+.wd-sl-wizard .prev-step{
+    margin-top: 10px;
+    width: 200px;
+    padding: 7px;
+    background: transparent;
+    border: 2px solid #32315C;
+    box-shadow: 0px 4px 4px rgba(106, 82, 254, 0.22);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 187.5%;
+    color: #32315C;
+}
+.wd-sl-wizard .prev-step:hover{
+    background: #32315C;
+    color: #FFFFFF;
+}
+.wd-sl-wizard .next-step{
+    margin-top: 10px;
+    width: 200px;
+    padding: 7px;
+    background: #6A52FE;
+    border: 2px solid transparent;
+    box-shadow: 0px 4px 4px rgba(106, 82, 254, 0.22);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 187.5%;
+    color: #FFFFFF;
+}
+.wd-sl-wizard .next-step:hover{
+    background: transparent;
+    color: #6A52FE;
+    border: 2px solid #6A52FE;
+}
+.wd-sl-wizard .step-head{
+     font-size: 20px;
+     text-align: center;
+     font-weight: 500;
+     margin-bottom: 20px;
+}
+ .term-check{
+     font-size: 14px;
+     font-weight: 400;
+}
+.wd-sl-wizard .custom-file {
+     position: relative;
+     display: inline-block;
+     width: 100%;
+     height: 40px;
+     margin-bottom: 0;
+}
+.wd-sl-wizard .custom-file-input {
+     position: relative;
+     z-index: 2;
+     width: 100%;
+     height: 40px;
+     margin: 0;
+     opacity: 0;
+}
+.wd-sl-wizard .custom-file-label {
+     position: absolute;
+     top: 0;
+     right: 0;
+     left: 0;
+     z-index: 1;
+     height: 40px;
+     padding: .375rem .75rem;
+     font-weight: 400;
+     line-height: 2;
+     color: #495057;
+     background-color: #fff;
+     border: 1px solid #ced4da;
+     border-radius: .25rem;
+}
+.wd-sl-wizard .custom-file-label::after {
+     position: absolute;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     z-index: 3;
+     display: block;
+     height: 38px;
+     padding: .375rem .75rem;
+     line-height: 2;
+     color: #495057;
+     content: "Browse";
+     background-color: #e9ecef;
+     border-left: inherit;
+     border-radius: 0 .25rem .25rem 0;
+}
+.wd-sl-wizard .footer-link{
+     margin-top: 30px;
+}
+.wd-sl-wizard .list-content{
+     margin-bottom: 10px;
+}
+.wd-sl-wizard .list-content a{
+     padding: 10px 15px;
+     width: 100%;
+     display: inline-block;
+     background-color: #f5f5f5;
+     position: relative;
+     color: #565656;
+     font-weight: 400;
+     border-radius: 4px;
+}
+.wd-sl-wizard .list-content a[aria-expanded="true"] i{
+     transform: rotate(180deg);
+}
+.wd-sl-wizard .list-content a i{
+     text-align: right;
+     position: absolute;
+     top: 15px;
+     right: 10px;
+     transition: 0.5s;
+}
+.wd-sl-wizard .form-control[disabled], .wd-sl-wizard .form-control[readonly], .wd-sl-wizard fieldset[disabled] .form-control {
+     background-color: #fdfdfd;
+}
+.wd-sl-wizard .list-box{
+     padding: 10px;
+}
+.wd-sl-wizard .signup-logo-header .logo_area{
+     width: 200px;
+}
+.wd-sl-wizard .signup-logo-header .nav > li{
+     padding: 0;
+}
+.wd-sl-wizard .signup-logo-header .header-flex{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.wd-sl-wizard .list-inline li{
+     display: inline-block;
+     margin-right: 15px;
+}
+.wd-sl-wizard .list-inline li:last-child{margin-right: 0;}
+.wd-sl-wizard .pull-right{
+    text-align: center;
+}
+/*-----------custom-checkbox-----------*/
+/*----------Custom-Checkbox---------*/
+.wd-sl-wizard input[type="checkbox"]{
+     position: relative;
+     display: inline-block;
+     margin-right: 5px;
+}
+.wd-sl-wizard input[type="checkbox"]::before, .wd-sl-wizard input[type="checkbox"]::after {
+     position: absolute;
+     content: "";
+     display: inline-block;
+}
+.wd-sl-wizard input[type="checkbox"]::before{
+     height: 16px;
+     width: 16px;
+     border: 1px solid #999;
+     left: 0px;
+     top: 0px;
+     background-color: #fff;
+     border-radius: 2px;
+}
+.wd-sl-wizard input[type="checkbox"]::after{
+     height: 5px;
+     width: 9px;
+     left: 4px;
+     top: 4px;
+}
+.wd-sl-wizard input[type="checkbox"]:checked::after{
+     content: "";
+     border-left: 1px solid #fff;
+     border-bottom: 1px solid #fff;
+     transform: rotate(-45deg);
+}
+.wd-sl-wizard input[type="checkbox"]:checked::before{
+     background-color: #18ba60;
+     border-color: #18ba60;
+}
+.wd-sl-wizard form.login-box {
+    width: 90%;
+    margin: 0 auto;
+}
+.wd-sl-wizard label{
+    font-size: 18px;
+    line-height: 25px;
+    color: rgb(0 0 0 / 40%);
+}
+.wizard .custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #60bc4c;
+    background-color: #60bc4c;
+}
+.wizard .custom-control-input:focus~.custom-control-label::before {
+    box-shadow: 0 0 0 0.2rem rgb(96 188 76 / 35%);
+}
+select.wd-marital-status {
+    background: url(../images/drop-arrow-w.png) no-repeat;
+    background-color: #FDFDFD;
+    background-position: 95% 50%!important;
+}
+label.wd-label-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 0;
+}
+ @media (max-width: 1200px){
+.wd-sl-wizard .wizard .nav-tabs > li {
+    width: 107px;
+}
+}
+ @media (max-width: 767px){
+    .wd-sl-wizard .wizard > div.wizard-inner{
+        padding: 5px;
+    }
+    .wd-sl-wizard .wizard .tab-pane{
+        padding-top: 15px;
+    }
+    .wd-sl-wizard h2.wd-step-title{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .wd-sl-wizard .wizard .nav-tabs > li {
+        width: auto;
+    }
+     .wd-sl-wizard .sign-content h3{
+         font-size: 40px;
+    }
+     .wd-sl-wizard .wizard .nav-tabs > li a i{
+         display: none;
+    }
+     .wd-sl-wizard .signup-logo-header .navbar-toggle{
+         margin: 0;
+         margin-top: 8px;
+    }
+     .wd-sl-wizard .signup-logo-header .logo_area{
+         margin-top: 0;
+    }
+     .wd-sl-wizard .signup-logo-header .header-flex{
+         display: block;
+    }
+    .wd-sl-wizard .prev-step{
+        width: auto;
+        padding: 7px 15px;
+        font-size: 14px;
+    }
+    .wd-sl-wizard .next-step{
+        width: auto;
+        padding: 7px 35px;
+        font-size: 14px;
+    }
+    .wizard {
+        padding-top: 0;
+    }
+    .wd-sl-wizard {
+        padding: 1rem 0;
+    }
+    .wd-sl-wizard .wizard > div.wizard-inner{
+        margin-bottom: 0;
+    }
+    .wd-sl-wizard .form-control{
+        height: auto;
+        padding: 10px;
+    }
+    .wd-sl-wizard .form-group {
+        margin-bottom: 15px;
+    }
+    label.wd-label-title{
+        font-size: 14px;
+    }
+    .wd-sl-wizard label{
+        font-size: 14px;
+    }
+}

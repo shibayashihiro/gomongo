@@ -1,0 +1,109 @@
+#header, #wd-md-home, #about, #services, #stock, #review, #budget, #footer, #contact{
+    position: relative;
+}
+.wd-edit-header {
+    position: absolute;
+    left: 15px;
+    top: 61px;
+}
+.wd-edit-btn img {
+    width: 30px !important;
+    height: 30px !important;
+    object-fit: contain !important;
+    border-radius: 50% !important;
+    background: #fff;
+}
+.wd-edit-header-top{
+    position: absolute;
+    right: 172px;
+    top: 15px;
+}
+/*Banner*/
+.wd-edit-banner {
+    position: absolute;
+    left:15px;
+    top: 200px;
+    z-index: 1;
+}
+/*Home Welcome section*/
+.wd-edit-welcm {
+    position: absolute;
+    left:15px;
+    top: 100px;
+}
+/*home services*/
+.wd-edit-services{
+    position: absolute;
+    left:15px;
+    top: 75px;
+}
+.services-action-prt a i{color: #000!important;}
+/*---Home Stock--*/
+.wd-edit-stock{
+    position: absolute;
+    left:15px;
+    top: 35px;
+}
+.stock-action-prt{position: relative;z-index: 2;}
+.stock-action-prt a i{
+    color: #fff;
+}
+/*---Home Testi---*/
+.wd-edit-testi{
+    position: absolute;
+    left:50px;
+    top: 35px;
+}
+.testi-action-prt{
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+.testi-action-prt a i{color: #000;}
+.wd-edit-plans{
+    position: absolute;
+    left:15px;
+    top: 35px;
+}
+/*footer*/
+.wd-kr-footeredit {
+    display: flex;
+    align-items: center;
+}
+.wd-kr-footeredit a.wd-edit-btn {
+    margin-bottom: 15px;
+}
+.wd-md-footer-blog .wd-md-address-blog a.wd-edit-btn {
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+/*contact page*/
+.wd-kr-contact-bx{
+    position: relative;
+}
+.wd-kr-contactedit{
+    position: absolute;
+    right: 10px;
+    top:10px;
+}
+.wd-md-opening-hours.wd-contact-opening-hours{position: relative;}
+.wd-kr-contactedit-btm{
+    position: absolute;
+    right: 10px;
+    top:10px;
+}
+@media (max-width: 991px) {
+    .wd-edit-header, .wd-edit-header-top, .wd-edit-banner, .wd-edit-welcm, .wd-edit-services, .wd-edit-stock, .wd-edit-testi, .testi-action-prt, .wd-edit-plans, .wd-kr-contactedit, .wd-kr-contactedit-btm{
+        display: none;
+    }
+    .wd-kr-footeredit a.wd-edit-btn{
+        display: none;
+    }
+    .stock-action-prt{
+        display: none;
+    }
+    .services-action-prt{
+        display: none;
+    }
+    .wd-md-our-services .wd-md-services-blog .wd-add-services{margin-top: 0!important;height: 230px!important;}
+}

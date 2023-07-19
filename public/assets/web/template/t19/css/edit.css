@@ -1,0 +1,90 @@
+#banner, #welcome, #service, #stock, #review, #other, #footer, #contactus{
+    position: relative;
+}
+.wd-edit-header {
+    position: absolute;
+    left: 166px;
+    top: 18px;
+}
+.wd-edit-btn img {
+    width: 30px !important;
+    height: 30px !important;
+    object-fit: contain !important;
+    border-radius: 50% !important;
+    background: #fff;
+}
+/*Banner*/
+.wd-edit-banner {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    z-index: 99;
+}
+/*Home Welcome section*/
+.wd-edit-welcm {
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+/*home services*/
+.services-action-prt {
+    margin: 0 auto;
+    text-align: center;
+}
+.wd-edit-services{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+.services-action-prt a i{color: #000!important;}
+/*---Home Stock--*/
+.wd-edit-stock{
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+.stock-action-prt a i{color: #fff;}
+/*---Home Testi---*/
+.wd-edit-testi{
+    position: absolute;
+    left:50px;
+    top: 100px;
+}
+.testi-action-prt{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 1;
+}
+
+.testi-action-prt-add-new{
+    z-index: 1;
+}
+.testi-action-prt a i{color: #000;}
+.wd-edit-plans{
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+/*footer*/
+.wd-kr-footeredit {
+    display: flex;
+    align-items: baseline;
+}
+/*contact page*/
+.wd-edit-opt{
+    position: relative;
+}
+.wd-kr-contactedit{
+    position: absolute;
+    right: 0px;
+    top:10px;
+}
+/*media query*/
+@media (max-width: 1200px) {
+    .wd-edit-testi, .wd-edit-stock, .wd-edit-services, .wd-edit-welcm, .wd-edit-banner{left: 20px;top: 70px;}
+     .wd-edit-plans{left: 20px;top: 150px;}
+}
+@media (max-width: 991px) {
+    .wd-edit-btn, .services-action-prt, .stock-action-prt, .testi-action-prt{display: none !important;}
+}

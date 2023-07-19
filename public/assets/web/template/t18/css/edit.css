@@ -1,0 +1,80 @@
+a.wd-edit-btn img{
+  width: 30px !important;
+  height: 30px !important;
+  object-fit: contain !important;
+  border-radius: 50% !important;
+  background: #fff;
+}
+.wd-edit-header{
+	position: absolute;
+	top: 50%;
+    transform: translate(0, -50%);
+	left: 15px;
+}
+.wd-edit-home{
+	position: absolute;
+	top: 150px;
+	left: 15px;
+}
+.wd-edit-our-services{
+	position: absolute;
+	top: 81px;
+	left: 15px;
+}
+.wd-edit-about{
+	position: absolute;
+	top: 30%;
+	left: 15px;
+	z-index: 3;
+}
+.wd-edit-stock{
+	position: absolute;
+	top: 25px;
+	left: 15px;
+}
+.wd-edit-testimonial{
+	position: absolute;
+	top: 25px;
+	left: 15px;
+}
+.wd-edit-offer{
+	position: absolute;
+	top: 25px;
+	left: 15px;
+}
+.wd-edit-contact-detail{
+	position: absolute;
+	top: 25px;
+	right: 15px;
+	z-index: 2;
+}
+.wd-edit-cont-opening{
+	position: absolute;
+	top: 25px;
+	right: 15px;
+	z-index: 2;
+}
+.action-div a.wd-delete{
+	margin:0 0 0 5px;
+}
+.action-div a i{
+	color: #fff;
+}
+.wd-services-action{
+	margin-bottom: 10px;
+}
+.wd-stock-action{
+	justify-content: flex-end;
+	margin-right: 10px;
+}
+.wd-testi-action a i{
+	color: #000;
+}
+@media (max-width: 991px) {
+	a.wd-edit-btn{
+		display: none;
+	}
+	.action-div{
+		display: none!important;
+	}
+}

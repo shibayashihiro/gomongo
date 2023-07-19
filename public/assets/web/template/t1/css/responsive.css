@@ -1,0 +1,992 @@
+/*  Desktop */
+
+@media all and (min-width: 1601px) and (max-width: 1920px)
+
+{
+
+
+
+}
+
+
+
+/* Laptop */
+
+@media (max-width: 1366px)
+
+{
+
+
+
+}
+
+
+
+/* Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1200px)
+
+{
+
+/*=========contact-us============*/
+
+.wd-md-map .wd-md-contact-detail .wd-md-call {
+
+    padding: 24px 45px;
+
+}
+
+/*=========contact-us============*/
+
+/*==========footer==============*/
+
+.footer .f-timing {
+
+    padding-left: 30px;
+
+}
+
+/*==========footer===============*/
+
+/*=========search-result=========*/
+
+.search-card-body .pd-feature .pd-feature-box {
+
+    margin-right: 15px;
+
+}
+
+.pd-btn-row{
+
+	justify-content: space-between;
+
+}
+
+.pd-btn-row .y-btn{
+
+	width: auto;
+
+	padding: 0 10px;
+
+	margin-right: 0px;
+
+	font-size: 13px;
+
+}
+
+/*=========search-result=========*/
+
+}
+
+
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991px)
+
+{
+
+/*============header===========*/
+
+.head-bottom .nav-menu ul li a{
+
+	padding: 0 20px;
+
+}
+
+/*============header===========*/
+
+/*============footer============*/
+
+.footer .f-timing{
+
+	padding-left: 15px;
+
+}
+
+.footer h3 {
+
+    padding-top: 20px;
+
+}
+
+.footer .f-logo p {
+
+    margin: 15px 0 15px 0;
+
+}
+
+.footer {
+
+    padding: 30px 0 30px 0;
+
+}
+
+/*============footer=============*/
+
+/*============index-page=========*/
+
+.banner-form .form-box {
+
+    width: 25%;
+
+}
+
+.banner-form .form-box.price {
+
+    width: 25%;
+
+}
+
+.services-blog h5{
+
+	font-size: 14px;
+
+}
+
+#about-us .sect-title {
+
+    max-width: 100%;
+
+    margin-bottom: 90px;
+
+}
+
+.about-cont-main {
+
+    margin: 30px 0 0 0;
+
+}
+
+.r-more-cont{
+
+	flex-wrap: wrap;
+
+}
+
+.more-desc {
+
+	padding-top: 15px;
+
+    padding-left: 15px;
+
+}
+
+/*============index-page=========*/
+
+/*=========search-list===========*/
+
+.search-result-cont {
+
+    flex-direction: column;
+
+}
+
+.search-details {
+
+    padding-top: 41px;
+
+    padding-left: 15px;
+
+}
+
+/*=========search-list===========*/
+
+/*============stock-list==========*/
+
+.wd-md-car-detail-box .wd-md-box-title p{
+
+	font-size: 21px;
+
+}
+
+.wd-md-car-detail .table thead th{
+
+	font-size: 13px;
+
+}
+
+.wd-md-car-detail .table thead th span{
+
+	font-size: 13px;
+
+}
+
+.wd-md-car-detail .table tbody td{
+
+	font-size: 13px;
+
+}
+
+.wd-md-car-detail .table tbody td span{
+
+	font-size: 13px;
+
+}
+
+.wd-md-car-blog .wd-md-stock-btn a.btn-cont{
+
+	font-size: 10px;
+
+}
+
+.wd-md-car-blog .wd-md-stock-btn a.btn-more{
+
+	font-size: 10px;
+
+}
+
+/*============stock-list==========*/
+
+/*=========contact-us============*/
+
+.wd-md-map .wd-md-contact-detail .wd-md-call {
+
+    padding: 24px 15px;
+
+}
+
+.wd-md-map .wd-md-contact-detail .wd-md-social-blog h3{
+
+	font-size: 14px;
+
+}
+
+.wd-md-map .wd-md-contact-detail .wd-md-call p{
+
+	font-size: 14px;
+
+}
+
+.wd-md-map .wd-md-contact-detail .wd-md-location p{
+
+	font-size: 14px;
+
+}
+
+.wd-md-contact-form .wd-md-contact-form-blog button{
+
+	margin: 12px 15px 12px auto;
+
+	padding: 4px 36px;
+
+}
+
+.wd-md-stock-main h2{
+
+	font-size: 23px;
+
+}
+
+/*=========contact-us============*/
+/* stock-list-detail  */
+    .wd-car-dt-btn ul li a{padding: 5px 10px;}
+    .wd-dt-compare-text a{justify-content: center; margin: 0 0 30px 0;}
+    .wd-dt-car-gallery{margin: 15px 0 30px 0;}
+    .wd-dt-car-gallery .thumbs{padding: 20px 0 0 0;}
+    .wd-dt-car-gallery .full{width: 100%; height: auto;}
+    .wd-car-dt-btn ul{width: 100%; display: inline-block;}
+    .wd-car-dt-btn ul li{width: 49%; float: left; margin: 0 1.0% 15px 0;}
+    .wd-car-dt-btn span{text-align: center; padding: 5px 0 0 0;}
+    .right-enquire-form h4{text-align: center;}
+    /*Part exchange*/
+    .wd-ech-vht-box{padding: 20px 0 30px 0;}
+    .wd-part-get-qut{padding: 30px 0 0 0;}
+    /*stock*/
+    .introduce img{border-top-left-radius: 20px; border-bottom-left-radius: 0; border-top-right-radius: 20px;}
+    img.sub-img-stock{width: 100%; height: auto;}
+    .information-main{width: 100%; margin: 0 30px 0 15px; display: inline-block;}
+    .main-stock-bg{padding: 0 0 40px 0 !important;}
+    .information h6{font-size: 18px;}
+    .information span{font-size: 14px;}
+    .ourworks-box{padding: 20px 0 10px 0;}
+    .our-works-head{font-size: 22px;}
+
+}
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767px)
+
+{
+
+/*===========header=============*/
+
+.mobile-menu {
+
+    display: block;
+
+    font-size: 24px;
+
+    line-height: 0;
+
+    color: #fff;
+
+    cursor: pointer;
+
+}
+
+.opacity {
+
+    position: fixed;
+
+    right: 0;
+
+    top: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.7);
+
+    z-index: 999;
+
+    display: none;
+
+}
+
+.open .opacity {
+
+    display: block;
+
+}
+
+.head-bottom .nav-menu {
+
+    background: #fff;
+
+    flex-direction: column;
+
+    width: 0px;
+
+    top: 0;
+
+    overflow-x: hidden;
+
+    right: -250px;
+
+    position: absolute;
+
+    bottom: 0;
+
+    padding-top: 55px;
+
+    transition: right 0.5s 0s;
+
+    z-index: 9999;
+
+}
+
+.head-bottom .nav-menu ul {
+
+    flex-direction: column;
+
+}
+
+.head-bottom.open .nav-menu {
+
+    right: 0;
+
+    width: 250px;
+
+    height: 120vh;
+
+}
+
+.head-bottom .nav-menu ul li {
+
+    padding: 0;
+
+}
+
+.head-bottom .nav-menu ul li a {
+
+    display: block;
+
+    font-size: 18px;
+
+    color: #000;
+
+    letter-spacing: 0.5px;
+
+    padding: 0 30px;
+
+    line-height: 45px;
+
+}
+
+.head-bottom .nav-menu ul li a:before {
+
+    display: none;
+
+}
+
+.header-top {
+
+    display: none;
+
+}
+
+.close-menu {
+
+    display: block;
+
+    position: absolute;
+
+    left: 30px;
+
+    top: 10px;
+
+    font-size: 24px;
+
+    color: var(--primary);
+
+    cursor: pointer;
+
+}
+
+/*===========header================*/
+
+/*============index-page=========*/
+
+.banner-form .form-box {
+
+    width: 50%;
+
+}
+
+.banner-form .form-box.price {
+
+    width: 50%;
+
+    margin-top: 20px;
+
+}
+
+/*============index-page=========*/
+
+/*===========stock-list==========*/
+
+.wd-md-car-detail-box .wd-md-box-title .wd-md-car-logo img {
+
+    width: 100px;
+
+    height: 100px;
+
+}
+
+.wd-md-car-blog .wd-md-stock-btn a.btn-cont {
+
+    font-size: 14px;
+
+}
+
+.wd-md-car-blog .wd-md-stock-btn a.btn-more {
+
+    font-size: 14px;
+
+}
+
+/*============stock-list===========*/
+
+/*=========contact-us========*/
+
+.wd-md-social-blog {
+
+    width: 100%;
+
+    text-align: center;
+
+    padding-bottom: 23px;
+
+}
+
+.wd-md-map .wd-md-contact-detail .wd-md-social-blog h3{
+
+	margin-right: 18px;
+
+}
+
+.wd-md-social-media {
+
+    justify-content: center;
+
+}
+
+.wd-md-map .wd-md-contact-detail{
+
+	flex-wrap: wrap;
+
+	justify-content:end!important;
+
+}
+
+.wd-md-map .wd-md-contact-detail .wd-md-call{
+
+	padding:0 25px 0 0;
+
+	border: none;
+
+}
+
+.wd-md-contact-form .wd-md-contact-form-blog{
+
+	width: auto;
+
+}
+
+.wd-md-location{
+
+	align-items: center;
+
+}
+
+/*=========contact-us========*/
+
+/*=========search-result=======*/
+
+.search-card-body{
+
+	flex-direction: column;
+
+}
+
+.search-card-body .pd-image{
+
+	width: 70%;
+
+}
+
+.search-card-body .pd-details{
+
+	width: 100%;
+
+}
+
+.pd-details .pd-desc p {
+
+    text-align: center;
+
+}
+
+.search-card-body .pd-feature .pd-feature-box:last-child {
+
+    margin-right: 0;
+
+}
+
+.search-card-body .pd-feature {
+
+    margin: 20px 0 20px 0;
+
+    justify-content: space-between;
+
+}
+
+/*=========search-result========*/
+
+}
+
+.banner-form .form-box.price select {
+    background-position: 95% center;
+}
+.home-page section h2 br {
+    display: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575px) {
+
+.home-page section h2 br {
+    display: none;
+}
+.banner-form .form-box {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.banner-form .form-box.price {
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+.banner-form .form-box.price:last-child {
+    margin-bottom: 0;
+}
+.banner-form {
+    margin-top: 20px;
+}
+
+	section {
+
+    padding: 15px 0;
+
+}
+
+/*================footer==============*/
+
+.copyright p{
+
+	font-size: 13px;
+
+}
+
+/*================footer==============*/
+
+/*============index-page=========*/
+
+.banner-cont h1{
+
+	font-size: 21px;
+
+}
+
+.home-page .banner-cont p{
+
+	font-size: 14px;
+
+}
+
+#home-banner{
+
+	height: auto;
+
+    padding-top: 70px;
+
+    background-position: center;
+
+}
+
+.home-page section {
+
+    margin-bottom: 30px;
+
+}
+
+.services-blog h5{
+
+	line-height: 24px;
+
+}
+
+.services-blog .services-img {
+
+    margin-bottom: 15px!important;
+
+}
+
+#testimonial{
+
+	padding: 30px 0;
+
+}
+
+#testimonial .sect-title {
+
+    max-width: 100%;
+
+}
+
+#testimonial .owl-nav{
+
+	top: -57px;
+
+}
+
+.about-top-title{
+
+	margin-bottom: 30px;
+
+}
+
+.about-img .ab-vector{
+
+	right: 0;
+
+}
+
+.banner-form .form-box select{
+
+	font-size: 14px;
+
+}
+
+/*============index-page=========*/
+
+/*================search-result=======*/
+
+nav.brdmb {
+
+    margin: 20px 0 20px 0;
+
+}
+
+.home-page section h2 {
+
+    font-size: 21px;
+
+}
+
+.home-page section p{
+
+	font-size: 14px;
+
+}
+
+.sect-title {
+
+    margin-bottom: 30px;
+
+}
+
+.search-card-head{
+
+	padding: 15px;
+
+}
+
+.search-card-head .pd-price strong {
+
+    font-size: 18px;
+
+}
+
+.search-card-head .pd-name p {
+
+    font-size: 14px;
+
+}
+
+.search-card-head .pd-name h3 {
+
+    font-size: 21px;
+
+}
+
+.search-card-body .pd-image {
+
+    width: 90%;
+
+}
+
+.search-card-body .pd-feature .pd-feature-box p, .search-card-body .pd-feature .pd-feature-box h6 {
+
+    font-size: 10px;
+
+}
+
+.search-card-body .pd-feature .pd-feature-box {
+
+    margin-right: 7px;
+
+}
+
+.pd-btn-row {
+
+    flex-direction: column;
+
+}
+
+.pd-btn-row .y-btn{
+
+	margin: 7px 0;
+
+}
+
+/*================search-result=======*/
+
+/*===============stock-list===========*/
+
+.wd-md-car-detail-box .wd-md-box-title{
+
+	flex-direction: column;
+
+}
+
+.wd-md-car-detail .table tbody td {
+
+    font-size: 11px;
+
+}
+
+/*===============stock-list===========*/
+
+/*================contact-us===========*/
+
+.wd-md-contact-form{
+
+	height: 100%;
+
+}
+
+.wd-md-contact-form .wd-md-contact-form-blog button {
+
+    margin: 0px 15px 0px;
+
+    width: 100%;
+
+    text-align: center;
+
+}
+
+.wd-md-map .wd-md-contact-detail{
+
+	justify-content: normal!important;
+
+	padding: 0 15px;
+
+}
+
+.wd-md-map .wd-md-contact-detail .wd-md-social-blog h3{
+
+	text-align: left;
+
+}
+
+.wd-md-map .wd-md-contact-detail .wd-md-call {
+
+    padding: 18px 0px;
+
+}
+
+.wd-md-social-media {
+
+    justify-content: flex-start;
+
+}
+
+.wd-md-location svg {
+
+    width: 30px;
+
+    height: 30px;
+
+}
+
+.wd-md-social-blog{
+
+	padding-bottom: 0px;
+
+}
+
+.wd-md-map .wd-md-contact-detail .wd-md-location p{
+
+	font-size: 13px;
+
+	line-height: 25px;
+
+    padding-left: 18px;
+
+}
+
+.wd-md-map .wd-md-contact-detail .wd-md-location p br {
+
+    display: none;
+
+}
+
+.wd-md-contact-form-heading {
+
+    padding-bottom: 0px;
+
+}
+
+/*================contact-us============*/
+
+/*================finance==============*/
+
+.wd-sl-wizard .pull-right{
+
+	text-align: left;
+
+}
+
+.wd-sl-wizard .list-inline li{
+
+	margin-right: 0;
+
+	display: block;
+
+}
+
+.wd-sl-wizard .prev-step{
+
+	width: 100%
+
+}
+
+.wd-sl-wizard .next-step{
+
+	width: 100%
+
+}
+
+.wd-md-stock-main h2{
+
+	font-size: 21px;
+
+}
+
+.wd-md-stock-main p{
+
+	font-size: 14px;
+
+}
+
+.wd-sl-wizard span.round-tab {
+
+    width: 35px;
+
+    height: 35px;
+
+    line-height: 21px;
+
+}
+
+.wd-sl-wizard .wizard > div.wizard-inner{
+
+	margin-bottom: 15px;
+
+}
+
+.wd-sl-wizard {
+
+    padding: 15px 0;
+
+}
+
+/*================finance==============*/
+.wd-warra-det-blog .wd-warr-fir-blog h6{font-size: 23px;}
+.wd-warra-det-blog .wd-warr-fir-blog p{font-size: 14px;}
+.wd-warra-det-blog .wd-mech-warr-det .card-header a h6{font-size: 14px;line-height: 23px;}
+.wd-warra-det-blog .wd-mech-warr-det .card-header .card-link{align-items: center;}
+.wd-warra-det-blog .wd-mech-warr-det .card-body h6{font-size: 16px;line-height: 23px;}
+.wd-warra-det-blog .wd-mech-warr-det .card-body p{font-size: 14px;}
+.wd-sl-wizard .next-step{padding: 6px 38px;}
+.wd-sl-wizard .prev-step{padding: 6px 38px;}
+
+}
+@media screen and (max-width: 414px) {
+    .wd-key-fact-content p{font-size: 14px;}
+    .right-phone-number h5{font-size: 18px;}
+    .right-phone-number p {font-size: 13px; font-weight: 600;}
+    .right-phone-number p span{font-size: 16px;}
+    .right-enquire-form h4{font-size: 16px;}
+    .wd-car-price-title h6{font-size: 18px; line-height: 26px;}
+    .wd-car-price-title p{font-size: 14px;}
+    .wd-car-price-text p{font-size: 16px; line-height: 22px;}
+    .wd-detal-box{margin: 0 0 25px 0;}
+    .wp-dt-ket-text h5{font-size: 16px; line-height: 20px;}
+    .wp-dt-ket-text a{font-size: 15px; line-height: 18px;}
+    .wd-car-dt-btn ul li a{padding: 5px 5px; font-size: 12px;}
+    /*Part exchange*/
+    .wd-part-get-qut h3{font-size: 18px;}
+    .wd-part-ech-vht h3{font-size: 18px;}
+}
+
+@media screen and (max-width: 375px) {
+    .wd-dt-car-gallery .preview{width: 108.5px;}
+}

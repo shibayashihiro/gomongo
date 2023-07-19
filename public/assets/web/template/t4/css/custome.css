@@ -1,0 +1,657 @@
+/*----- CUSTOME [ EXTRA CSS ] -----*/
+
+/*============stock-list==========*/
+
+section{
+
+	padding: 40px 0 0;
+
+}
+
+
+.wd-md-car-detail-box{
+
+	background: #FFFFFF;
+
+	box-shadow: -12px 12px 24px rgba(230, 230, 230, 0.2), 12px -12px 24px rgba(230, 230, 230, 0.2), -12px -12px 24px rgba(255, 255, 255, 0.9), 12px 12px 30px rgba(230, 230, 230, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(230, 230, 230, 0.5);
+
+	border-radius: 30px;
+
+	padding: 23px 0;
+
+	margin-bottom: 40px;
+
+}
+
+.wd-md-car-detail-box .wd-md-box-title{
+
+	display: flex;
+
+	justify-content: space-between;
+
+	align-items: center;
+
+	padding: 0 23px 0 18px;
+
+}
+
+.wd-md-car-detail-box hr{
+
+	border-top: 1px solid rgb(0 0 0 / 20%);
+
+	margin: 0 0 15px;
+
+}
+
+.wd-md-car-detail-box .wd-md-box-title .wd-md-car-logo{
+
+	display: flex;
+
+	align-items: center;
+
+}
+
+.wd-md-car-detail-box .wd-md-box-title .wd-md-car-logo .wd-md-logo-sidetext h3{
+
+	font-family: Poppins;
+
+	font-style: normal;
+
+	font-weight: 600;
+
+	font-size: 20px;
+
+	line-height: 30px;
+
+	color: #000000;
+
+}
+
+.wd-md-car-detail-box .wd-md-box-title .wd-md-car-logo .wd-md-logo-sidetext p{
+
+	font-family: Poppins;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	font-size: 15px;
+
+	line-height: 22px;
+
+	color: #000000;
+
+}
+
+.wd-md-car-detail-box .wd-md-box-title p{
+
+	font-family: Poppins;
+
+	font-style: normal;
+
+	font-weight: bold;
+
+	font-size: 30px;
+
+	line-height: 45px;
+
+	color: #FA8305;
+
+}
+
+.wd-md-car-blog{
+
+	padding: 0 23px 0 18px;
+
+}
+
+.wd-md-car-detail .table thead th{
+
+	font-family: Poppins;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	font-size: 15px;
+
+	line-height: 22px;
+
+	color: #000000;
+
+}
+
+.wd-md-car-detail .table thead th span{
+
+	font-family: Poppins;
+
+	font-style: normal;
+
+	font-weight: 500;
+
+	font-size: 15px;
+
+	line-height: 22px;
+
+	color: #000000;
+
+}
+
+.wd-md-car-detail .table tbody td{
+
+	font-family: Poppins;
+
+	font-style: normal;
+
+	font-weight: normal;
+
+	font-size: 15px;
+
+	line-height: 22px;
+
+	color: #000000;
+
+}
+
+.wd-md-car-detail .table tbody td span{
+
+	font-family: Poppins;
+
+	font-style: normal;
+
+	font-weight: 500;
+
+	font-size: 15px;
+
+	line-height: 22px;
+
+	color: #000000;
+
+}
+
+/*============stock-list-end==========*/
+
+/*============contact-us==========*/
+
+.wd-sl-width {
+    width: 70%;
+    margin: 0 auto;
+}
+.contact-card {
+    background: #FFFFFF;
+    box-shadow: 0px 12px 40px rgb(149 147 147 / 25%);
+    border-radius: 9px;
+    padding: 30px;
+    display: block;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.contact-card h6{
+	font-weight: 500;
+	font-size: 16px;
+	color: #252B2F;
+	margin-bottom: 20px;
+}
+.contact-card span, .contact-card a{
+	font-size: 16px;
+    color: rgb(37 43 47 / 50%);
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.contact-card a:last-child{margin-bottom: 0;}
+.wd-md-contact-form{
+
+	background: url(../images/contact-us/contact-background.png);
+
+	width: 100%;
+
+	height: 100%;
+
+	background-size: cover;
+	padding: 4rem 0;
+
+}
+.wd-md-contact-form-heading {
+    padding-bottom: 40px;
+}
+.wd-md-contact-form-heading h3{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 189.5%;
+	color: #000000;
+	text-align: center;
+}
+.wd-md-contact-form-heading p{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 189.5%;
+	text-align: center;
+	color: #777777;
+}
+.wd-md-contact-form .wd-md-contact-form-blog{
+	width: 100%;
+    align-items: unset;
+    justify-content: space-between;
+    height: 100%;
+    display: flex;
+}
+.wd-md-contact-form .wd-md-contact-form-blog .form-group input{
+	height:56px;
+	background: #FFFFFF;
+	border: 0.6px solid #CECECE;
+	box-sizing: border-box;
+	border-radius: 9px;
+} .form-group label{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 175.4%;
+	letter-spacing: -0.3px;
+	color: #4F4F4F;
+}
+.wd-md-contact-form .wd-md-contact-form-blog .form-group input{
+	height:56px;
+	background: #FFFFFF;
+	border: 0.6px solid #CECECE;
+	box-sizing: border-box;
+	border-radius: 9px;
+} .form-group input{
+	height:56px;
+	background: #FFFFFF;
+	border: 0.6px solid #CECECE;
+	box-sizing: border-box;
+	border-radius: 9px;
+}
+.wd-md-contact-form .wd-md-contact-form-blog .form-group input{
+	height:56px;
+	background: #FFFFFF;
+	border: 0.6px solid #CECECE;
+	box-sizing: border-box;
+	border-radius: 9px;
+} .form-group textarea{
+	background: #FFFFFF;
+	border: 0.6px solid #CECECE;
+	box-sizing: border-box;
+	border-radius: 9px;
+}
+.wd-md-contact-form .wd-md-contact-form-blog button{
+	font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: normal;
+    color: #FFFFFF;
+    background: var(--primary);
+    box-shadow: 0px 4px 12px rgb(255 189 65 / 26%);
+    border-radius: 5px;
+    padding: 0px 60px;
+    text-align: center;
+    margin: 30px auto;
+}
+.wd-sl-width {
+    width: 80%;
+    margin: 0 auto;
+}
+/*===========contact-us-end======*/
+/********** Stock List Details **********/
+.wd-detal-box{
+    margin: 0 0 60px 0;
+}
+.wd-title-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.wd-car-price-text p{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.wd-car-price-text span{
+    width: 100px;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: normal;
+    display: inline-block;
+    background: #FFBD41;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px 0 0 0;
+}
+.wd-car-price-title{
+    display: inline-block;
+    border-left: 1px solid #cccccc;
+    margin: 6px 0 15px 15px;
+    padding: 0 0 0 15px;
+}
+.wd-car-price-title h6{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+.wd-car-price-title p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+.wd-car-dt-btn ul{
+    display: flex;
+}
+.wd-car-dt-btn ul li{
+    margin: 0 4.6% 0 0;
+}
+.wd-car-dt-btn ul li:last-child{
+    margin: 0;
+}
+.wd-car-dt-btn ul li a{
+    width: 100%;
+    background: #FFBD41;
+    border-radius: 10px;
+    border: 1px solid #FFBD41;
+    font-style: normal;
+    font-weight: normal;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+.wd-car-dt-btn ul li a:hover{
+    background: transparent;
+    color: #FFBD41;
+}
+.wd-car-dt-btn span{
+    color: #000000;
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    text-align: right;
+    padding: 0 1.5% 0 0;
+}
+.wp-dt-ket-text{
+    padding: 20px 0;
+}
+.wp-dt-ket-text h5{
+    color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.wp-dt-ket-text a{
+    color: #FFBD41 !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.wp-dt-ket-text a:hover{
+    color: #000000 !important;
+}
+.wp-dt-ket-text a i{
+    color: #000000;
+}
+.wd-key-fact-text p{
+    width: 100%;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+.wd-key-fact-text p span{
+    width: 100%;
+    display: inline-block;
+    font-weight: 600;
+}
+.wd-key-fact-content{
+    display: inline-block;
+    margin: 15px 0 0 0;
+}
+.wd-key-fact-content p{
+    color: #525252;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0 0 15px 0;
+}
+
+.right-phone-number{
+    width: 100%;
+    display: inline-block;
+    background: #FFFFFF;
+    box-shadow: -12px 12px 24px rgba(230, 230, 230, 0.2), 12px -12px 24px rgba(230, 230, 230, 0.2), -12px -12px 24px rgba(255, 255, 255, 0.9), 12px 12px 30px rgba(230, 230, 230, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(230, 230, 230, 0.5);
+    border-radius: 15px;
+    padding: 15px;
+}
+.right-phone-number h5{
+    color: #333333;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+.right-phone-number h6{
+    color: #333333;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+.right-phone-number img{
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+.right-phone-number p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+.right-phone-number p span{
+    color: #FFBD41;
+    font-size: 18px;
+    line-height: 22px;
+}
+.right-phone-number a{
+    width: 100%;
+    background: #FFBD41;
+    border-radius: 10px;
+    border: 1px solid #FFBD41;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+.right-phone-number a:hover{
+    color: #DC7000;
+    background: #ffffff;
+}
+.right-phone-number a i{
+    margin: 0 5px 0 0;
+}
+.right-enquire-form{
+    width: 100%;
+    display: inline-block;
+    background: #FFFFFF;
+    box-shadow: -12px 12px 24px rgba(230, 230, 230, 0.2), 12px -12px 24px rgba(230, 230, 230, 0.2), -12px -12px 24px rgba(255, 255, 255, 0.9), 12px 12px 30px rgba(230, 230, 230, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(230, 230, 230, 0.5);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px 0 0 0;
+}
+.right-enquire-form h4{
+    color: #000000;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 0 10px 0;
+}
+.right-enquire-form .sub-error{
+    color: #FF0000;
+}
+.right-enquire-form .form-group input{
+    height: auto;
+}
+.right-enquire-form .btn-primary{
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: normal;
+    color: #FFFFFF;
+    background: #FFBD41;
+    border-color: #FFBD41;
+    border-radius: 10px;
+    padding: 10px 60px;
+}
+.right-enquire-form .btn-primary:hover{
+    color: #FFBD41;
+    background: #ffffff;
+}
+.right-enquire-form p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #525252;
+    margin: 0;
+    padding: 15px 0;
+}
+
+/**********************/
+
+.wd-dt-car-gallery{
+    margin: 20px 0 40px 0;
+}
+.wd-dt-compare-text a{
+    width: 100%;
+    color: #FFBD41;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0 0 15px 0;
+}
+.wd-dt-compare-text a i{
+    padding: 0 5px 0 0;
+}
+.wd-dt-compare-text a:hover{
+    color: #000000;
+}
+.wd-dt-car-gallery .gallery {
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.wd-dt-car-gallery .thumbs {
+    width: auto;
+    padding: 0 0 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wd-dt-car-gallery .preview {
+    width: 110.5px;
+    height: 66px;
+    margin: 0 1.5% 15px 0;
+    position: relative;
+}
+.wd-dt-car-gallery .preview a img{
+    width: 100%;
+    height: 70px;
+}
+.view-more-gallery a{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    border: 2px solid #000;
+    background: #000000;
+    border-radius: 6px;
+    position: absolute;
+    font-size: 13px;
+    text-align: center;
+    line-height: 16px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-more-gallery a:hover{
+    background: transparent;
+}
+.wd-dt-car-gallery .preview:last-child {
+    margin-bottom: 0;
+}
+.wd-dt-car-gallery .preview .selected{
+    width: 100%;
+    border: 3px solid #FFBD41;
+    border-radius: 6px;
+    display: inline-block;
+}
+.wd-dt-car-gallery .full {
+    width: 365px;
+    height: 214px;
+    border-radius: 20px;
+    font-size: 12px;
+    float: left;
+}
+.wd-dt-car-gallery a.full img {
+    width: 100%;
+    height: 100%;
+}
+.wd-dt-car-gallery .previews a:hover, .wd-dt-car-gallery .previews a.selected {}
+.wd-dt-car-gallery .full img:hover {
+    cursor: pointer;
+}
+.wd-dt-car-gallery .clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+/* fancy box  */
+.wd-dt-car-gallery div.fancybox-skin {
+    border-radius: 1px;
+}
+.wd-dt-car-gallery a.fancybox-item.fancybox-close {
+    bottom: 9px;
+    right: 12px;
+    top: auto;
+    left: auto;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/icon-close.svg);
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+/********** Stock List Details End **********/

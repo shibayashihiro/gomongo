@@ -1,0 +1,115 @@
+/* Desktop */
+@media only screen and (min-width: 1366px) and (max-width: 1605px)
+{
+	.login-blog{transform: scale(0.8);}
+	.login-reg-blog{transform: scale(0.7);position: relative;z-index: 1;}
+	.compose-btn button{font-size: 16px;padding: 0 30px;display: flex;align-items: center;}
+	.wd-sl-gridftrs {
+	    -webkit-columns: 4;
+	    -moz-columns: 4;
+	    columns: 4;
+	    -webkit-column-gap: 15px;
+	    -moz-column-gap: 15px;
+	    column-gap: 15px;
+	}
+	.wd-sl-ftrcount{
+		-webkit-columns-break-inside: avoid;
+	    page-break-inside: avoid;
+	    break-inside: avoid;
+	    margin-bottom: 15px;
+	}
+	.us-contact-details{
+		align-items: flex-start;
+    	flex-direction: column;	
+	}
+	.wd-date {
+    transform: scale(0.9);
+	}
+	.st-title h2 {
+    font-size: 16px;
+	}
+	.add-stock-btn{
+		font-size: 14px;
+	}
+	.login-body.wd-sl-terms {
+	    height: auto;
+    padding-right: 7px;
+    overflow: auto;
+    max-height: 500px;
+	}
+	#login-content::after{
+		transform: translate(21% , -43%);
+	}
+}
+@media (max-width: 1366px){
+	.wd-sl-gridftrs {
+    -webkit-columns: 4;
+    -moz-columns: 4;
+    columns: 4;
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+}
+	.wd-sl-ftrcount{
+	-webkit-columns-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 15px;
+	}
+}
+/* Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1200px)
+
+{
+	.wd-sl-gridftrs {
+	    -webkit-columns: 2;
+	    -moz-columns: 2;
+	    columns: 2;
+	    -webkit-column-gap: 15px;
+	    -moz-column-gap: 15px;
+	    column-gap: 15px;
+	}
+	.wd-sl-ftrcount{
+		-webkit-columns-break-inside: avoid;
+	    page-break-inside: avoid;
+	    break-inside: avoid;
+	    margin-bottom: 15px;
+	}
+}
+
+
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991px)
+
+{
+
+
+
+}
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767px)
+
+{
+
+
+
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575px)
+
+{
+
+
+
+}
